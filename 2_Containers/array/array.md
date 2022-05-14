@@ -7,14 +7,15 @@
 ## Properties
 - Fixed-size
     - no contraction or expansion
-- Only its elements. (no size info)
+- Only its elements. 
+    - no size info
+    - We can call size() function.
 - Effecient in terms of storage size.
 - class instead of pointer, not support pointer operation.
     - Exception: .data() operation
 
 
 ## Internal Implementations
-
 ## Basic operations
 ### 1. Initialization
 ~~~c++
