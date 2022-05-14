@@ -20,24 +20,25 @@ Basically, we use c++ containers as data structure to implement algorithms. So, 
 6. Optional (e.g., Other advanced usage / tips)
 
 ## Table
-| Header | DataStructure | Implementation |Types|Note| c++11|
-|-|-|-|-|- |-|
-|\<array\> | [array](../2_Containers/array/array.md) |[Array](../1_DataStructure/ch2_Array/Array.md)|Seq.|Fixed-size|v|
-|\<deque\>|[deque](../2_Containers/deque/deque.md) |[Array](../1_DataStructure/ch2_Array/Array.md)|Seq.|-|-|
-| \<forward_list\> |[forward_list](../2_Containers/forward_list/forward_list.md) |[Singly-linked lists](../1_DataStructure/ch4_LinkedList/4_1_SinglyLinkedList.md)|Seq.|-|v|
-|\<list\>|[list](../2_Containers/list/list.md) |[Doubly-linked lists](../1_DataStructure/ch4_LinkedList/4_10_DoublyLinkedList.md)|Seq.|-|-|
-|\<map\>|[map](../2_Containers/map/map.md) |[Red Black Tree](../1_DataStructure/ch10_HigPerformancyBinarySearchTree/10_3_RedBlackTree.md)|Associ.|-|-|
-|\<map\>|[multimap](../2_Containers/map/multi_map.md) |[Binary Search Tree](../1_DataStructure/ch5_Tree/5_7_BST.md)|Associ.|-|-|
-|\<queue\>|[queue](../2_Containers/queue/queue.md) |[(default=deque) Array](../1_DataStructure/ch2_Array/Array.md), [Doubly-linked lists](../1_DataStructure/ch4_LinkedList/4_10_DoublyLinkedList.md)|Adaptor|-|-|
-|\<queue\>|[priority_queue](../2_Containers/queue/priority_queue.md) |[(default=deque) Array](../1_DataStructure/ch2_Array/Array.md), [(list) Doubly-linked lists](../1_DataStructure/ch4_LinkedList/4_10_DoublyLinkedList.md)|Adaptor|-|-|
-|\<set\>|[set](../2_Containers/set/set.md) |[Binary Search Tree](../1_DataStructure/ch5_Tree/5_7_BST.md)|Associ.|-|-|
-|\<set\>|[multiset](../2_Containers/set/multiset.md) |[Binary Search Tree](../1_DataStructure/ch5_Tree/5_7_BST.md)|Associ.|-|-|
-|\<stack\>|[stack](../2_Containers/stack/stack.md) |[(default=deque) Array](../1_DataStructure/ch2_Array/Array.md), [(list) Doubly-linked lists](../1_DataStructure/ch4_LinkedList/4_10_DoublyLinkedList.md), [(vector) Array](../1_DataStructure/ch2_Array/Array.md)|Adaptor|-|-|
-|\<unordered_map\>|[unordered_map](../2_Containers/unordered_map/unordered_map.md) |[Hash](../1_DataStructure/ch8_Hash/8_2_Hashtable.md)|Unordered|-|V|
-|\<unordered_map\>|[unordered_multimap](../2_Containers/unordered_map/unordered_multimap.md) |[Hash](../1_DataStructure/ch8_Hash/8_2_Hashtable.md)|Unordered|-|V|
-|\<unordered_set\>|[unordered_set](../2_Containers/unordered_set/unordered_set.md) |[Hash](../1_DataStructure/ch8_Hash/8_2_Hashtable.md)|Unordered|-|V|
-|\<unordered_set\>|[unordered_multiset](../2_Containers/unordered_set/unordered_multiset.md) |[Hash](../1_DataStructure/ch8_Hash/8_2_Hashtable.md)|Unordered|-|V|
-|\<vector\>|[vector](../2_Containers/vector/vector.md) |[Array](../1_DataStructure/ch2_Array/Array.md)|-|-|
+| Header | DataStructure | Implementation |Types| c++11|
+|-|-|-|-|- |
+|\<array\> | [array](../2_Containers/array/array.md) |[Array](../1_DataStructure/ch2_Array/Array.md)|Seq.|v|
+|\<vector\>|[vector](../2_Containers/vector/vector.md) |[Array](../1_DataStructure/ch2_Array/Array.md)|Seq.|-|
+|\<deque\>|[deque](../2_Containers/deque/deque.md) |[Array](../1_DataStructure/ch2_Array/Array.md)|Seq.|-|
+|\<queue\>|[queue](../2_Containers/queue/queue.md) |[(default=deque) Array](../1_DataStructure/ch2_Array/Array.md), [Doubly-linked lists](../1_DataStructure/ch4_LinkedList/4_10_DoublyLinkedList.md)|Adaptor|-|
+|\<queue\>|[priority_queue](../2_Containers/queue/priority_queue.md) |[(default=deque) Array](../1_DataStructure/ch2_Array/Array.md), [(list) Doubly-linked lists](../1_DataStructure/ch4_LinkedList/4_10_DoublyLinkedList.md)|Adaptor|-|
+|\<stack\>|[stack](../2_Containers/stack/stack.md) |[(default=deque) Array](../1_DataStructure/ch2_Array/Array.md), [(list) Doubly-linked lists](../1_DataStructure/ch4_LinkedList/4_10_DoublyLinkedList.md), [(vector) Array](../1_DataStructure/ch2_Array/Array.md)|Adaptor|-|
+| \<forward_list\> |[forward_list](../2_Containers/forward_list/forward_list.md) |[Singly-linked lists](../1_DataStructure/ch4_LinkedList/4_1_SinglyLinkedList.md)|Seq.|v|
+|\<list\>|[list](../2_Containers/list/list.md) |[Doubly-linked lists](../1_DataStructure/ch4_LinkedList/4_10_DoublyLinkedList.md)|Seq.|-|
+|\<map\>|[map](../2_Containers/map/map.md) |[Red Black Tree](../1_DataStructure/ch10_HigPerformancyBinarySearchTree/10_3_RedBlackTree.md)|Associ.|-|
+|\<map\>|[multimap](../2_Containers/map/multi_map.md) |[Binary Search Tree](../1_DataStructure/ch5_Tree/5_7_BST.md)|Associ.|-|
+|\<set\>|[set](../2_Containers/set/set.md) |[Binary Search Tree](../1_DataStructure/ch5_Tree/5_7_BST.md)|Associ.|-|
+|\<set\>|[multiset](../2_Containers/set/multiset.md) |[Binary Search Tree](../1_DataStructure/ch5_Tree/5_7_BST.md)|Associ.|-|
+|\<unordered_map\>|[unordered_map](../2_Containers/unordered_map/unordered_map.md) |[Hash](../1_DataStructure/ch8_Hash/8_2_Hashtable.md)|Unordered|V|
+|\<unordered_map\>|[unordered_multimap](../2_Containers/unordered_map/unordered_multimap.md) |[Hash](../1_DataStructure/ch8_Hash/8_2_Hashtable.md)|Unordered|V|
+|\<unordered_set\>|[unordered_set](../2_Containers/unordered_set/unordered_set.md) |[Hash](../1_DataStructure/ch8_Hash/8_2_Hashtable.md)|Unordered|V|
+|\<unordered_set\>|[unordered_multiset](../2_Containers/unordered_set/unordered_multiset.md) |[Hash](../1_DataStructure/ch8_Hash/8_2_Hashtable.md)|Unordered|V|
+
 
 ### Note: three types of container
 1. Sequence containers (Seq.)
