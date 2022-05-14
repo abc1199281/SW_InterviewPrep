@@ -1,6 +1,6 @@
 ## deque
 
-## Relationship to C++ STL Container
+## Alternatives
 | header | Implementation |Note| c++11|
 |-|-|-|- |
 array |[Array](..\1_DataStructure\ch2_Array\Array.md)|Fixed-size|Y|
