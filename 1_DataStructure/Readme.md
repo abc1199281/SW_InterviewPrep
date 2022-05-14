@@ -21,7 +21,7 @@ Structure |**Time**| | | | | | | |**Space**
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
  ||Average| | | |Worst| | | |Worst
  ||Access|Search|Insertion|Deletion|Access|Search|Insertion|Deletion|-
-[Array](..\1_DataStructure\ch2_Array\Array.md)|**o(1)**|o(n)|o(n)|o(n)|**O(1)**|O(n)|O(n)|O(n)|O(n)
+[Array](../1_DataStructure/ch2_Array/Array.md)|**o(1)**|o(n)|o(n)|o(n)|**O(1)**|O(n)|O(n)|O(n)|O(n)
 [Stack](..\1_DataStructure\ch3_StackAndQueue\3_2_Stack.md)|o(n)|o(n)|**o(1)**|**o(1)**|O(n)|O(n)|**O(1)**|**O(1)**|O(n)
 [Queue](1_DataStructure\ch3_StackAndQueue\3_3_Queue.md)|o(n)|o(n)|**o(1)**|**o(1)**|O(n)|O(n)|**O(1)**|**O(1)**|O(n)
 [Singly-Linked List](\ch4_LinkedList\4_1_SinglyLinkedList.md)|o(n)|o(n)|**o(1)**|**o(1)**|O(n)|O(n)|**O(1)**|**O(1)**|O(n)
