@@ -1,29 +1,27 @@
 ## Array
-## Motivation
+## 1. Motivation: 
 - One of the basic implementation for all others data structures. 
 - The other basic data staructure is linked list.
-## Pros. & Cons.
+## 2. Pros. & Cons.
 - Pros: 
     - O(1), Direct access based on index.
 - Cons:
     - O(n), when enlarging/delete new space 
     - Performs the worst when Insertion, Deletion.
-- When to use:
-    - Direct access dominates
+## 3. When to use:
+- Direct access dominates
+
+## 4. Alternative
+- Nope
+
+Structure |**Time**| | | | | | | |**Space**
+:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
+ ||Average| | | |Worst| | | |Worst
+ ||Access|Search|Insertion|Deletion|Access|Search|Insertion|Deletion|-
+[Array](\ch2_Array\Array.md)|**o(1)**|o(n)|o(n)|o(n)|**O(1)**|O(n)|O(n)|O(n)|O(n)
+
 
 ## C++ Container & Implementation
-- array / vector
-
-## C++ Container & usage
-~~~c++
-#inclue <vector>
-
-// initialization
-vector<int> vec={1,2,3}
-
-// size
-vec.size();
-
-// iterations
-
-~~~
+- array 
+- vector
+- deque

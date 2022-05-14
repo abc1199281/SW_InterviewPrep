@@ -1,10 +1,23 @@
-## Introduction
+# Introduction
 
+In this section, we want to answer **Why and When** to use specific type of data structure.
 
+For each data structure, we would answer the questions with following structures.
+## Structures
+1. Motivation 
+    - Why to use?
+2. Pros. and Cons. 
+3. When to use? 
+    - Classical Algorithms that utilize the data structure.
+4. Implementations
+    - array v.s. linked list
+5. C++ Containers
+6. Possible alternatives
 
-## Common Data Structure Operations
+## Operations
+With known property of an algorithm, we should choose corresponding data structure, which can minimize the temporal complexity or space complexity. 
 
-Structure |**Time**| | | | | | | |**Space **
+Structure |**Time**| | | | | | | |**Space**
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
  ||Average| | | |Worst| | | |Worst
  ||Access|Search|Insertion|Deletion|Access|Search|Insertion|Deletion|-
@@ -22,6 +35,8 @@ Structure |**Time**| | | | | | | |**Space **
 [Splay Tree](\ch10_HigPerformancyBinarySearchTree\10_4_SplayTree.md)|N/A|*o(log(n))*|*o(log(n))*|*o(log(n))*|N/A|*O(log(n))*|*O(log(n))*|*O(log(n))*|O(n)
 [AVL Tree](\ch10_HigPerformancyBinarySearchTree\10_2_AVL_Tree.md)|*o(log(n))*|*o(log(n))*|*o(log(n))*|*o(log(n))*|*O(log(n))*|*O(log(n))*|*O(log(n))*|*O(log(n))*|O(n)
 [KD Tree](\Others\KD_Tree.md)|*o(log(n))*|*o(log(n))*|*o(log(n))*|*o(log(n))*|O(n)|O(n)|O(n)|O(n)|O(n)
+
+
 
 ## Refference
 [1] Fundamentals of Data Structures in C++ (2e), Ellis Horowitz, Sartaj Sahni, Dinesh P. Mehta.
