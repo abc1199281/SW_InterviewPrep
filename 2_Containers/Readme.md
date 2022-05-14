@@ -1,13 +1,67 @@
-# From Data Structure to C++ STL Container
-Understanding the foundmental implemetations of C++ containers 
+# From Data Structure to C++ STL Containers
+In previous section, we've known **why and when** to use basic data structure.
 
-# Table
-| header | Implementation |Note| c++11|
-|-|-|-|- |
-array |[Array](..\1_DataStructure\ch2_Array\Array.md)|Fixed-size|Y|
-[deque](\deque\deque.md) |[Array](..\1_DataStructure\ch2_Array\Array.md)|1|Y|
+However, when it comes to implementation, there is still a question, **How?**
 
-### Notes
-1. The data in **deque** are stored by chuncks of **fixed size vector**, which are pointered by a **map** (which is also a chunk of vector with varied size). ([link1](https://stackoverflow.com/questions/6292332/what-really-is-a-deque-in-stl), [link2](https://www.codeproject.com/Articles/5425/An-In-Depth-Study-of-the-STL-Deque-Container))
+Basically, we use c++ containers as data structure to implement algorithms. So, we should really understand the foundmental implemetations of C++ containers.
+
+## Structure
+1. Motivations    
+2. Properties 
+    - Itemized for memorization
+3. Internal Implementations
+    - Relationship to data structure
+4. Basic Operations
+    1. Access
+    2. Search (Iterations)
+    3. Insertion
+    4. Deletion
+5. Alternatives and Comparison
+6. Optional (e.g., Other advanced usage / tips)
+
+## Table
+| Header | DataStructure | Implementation |Types| c++11|
+|-|-|-|-|- |
+|\<array\> | [array](../2_Containers/array/array.md) |[Static continuous Array](../1_DataStructure/ch2_Array/Array.md)|Seq.|v|
+|\<vector\>|[vector](../2_Containers/vector/vector.md) |[Dynamic continuous Array](../1_DataStructure/ch2_Array/Array.md)|Seq.|-|
+|\<deque\>|[deque](../2_Containers/deque/deque.md) |[Array (**d**ouble-**e**nded **que**ue)](../1_DataStructure/ch2_Array/Array.md)|Seq.|-|
+| \<forward_list\> |[forward_list](../2_Containers/forward_list/forward_list.md) |[Singly-linked lists](../1_DataStructure/ch4_LinkedList/4_1_SinglyLinkedList.md)|Seq.|v|
+|\<list\>|[list](../2_Containers/list/list.md) |[Doubly-linked lists](../1_DataStructure/ch4_LinkedList/4_10_DoublyLinkedList.md)|Seq.|-|
+|\<queue\>|[queue](../2_Containers/queue/queue.md) |[(default=deque) Array](../1_DataStructure/ch2_Array/Array.md), [Doubly-linked lists](../1_DataStructure/ch4_LinkedList/4_10_DoublyLinkedList.md)|Adaptor|-|
+|\<queue\>|[priority_queue](../2_Containers/queue/priority_queue.md) |[(default=deque) Array](../1_DataStructure/ch2_Array/Array.md), [(list) Doubly-linked lists](../1_DataStructure/ch4_LinkedList/4_10_DoublyLinkedList.md)|Adaptor|-|
+|\<stack\>|[stack](../2_Containers/stack/stack.md) |[(default=deque) Array](../1_DataStructure/ch2_Array/Array.md), [(list) Doubly-linked lists](../1_DataStructure/ch4_LinkedList/4_10_DoublyLinkedList.md), [(vector) Array](../1_DataStructure/ch2_Array/Array.md)|Adaptor|-|
+|\<map\>|[map](../2_Containers/map/map.md) |[Red Black Tree](../1_DataStructure/ch10_HigPerformancyBinarySearchTree/10_3_RedBlackTree.md)|Associ.|-|
+|\<map\>|[multimap](../2_Containers/map/multi_map.md) |[Binary Search Tree](../1_DataStructure/ch5_Tree/5_7_BST.md)|Associ.|-|
+|\<set\>|[set](../2_Containers/set/set.md) |[Binary Search Tree](../1_DataStructure/ch5_Tree/5_7_BST.md)|Associ.|-|
+|\<set\>|[multiset](../2_Containers/set/multiset.md) |[Binary Search Tree](../1_DataStructure/ch5_Tree/5_7_BST.md)|Associ.|-|
+|\<unordered_map\>|[unordered_map](../2_Containers/unordered_map/unordered_map.md) |[Hash](../1_DataStructure/ch8_Hash/8_2_Hashtable.md)|Unordered|V|
+|\<unordered_map\>|[unordered_multimap](../2_Containers/unordered_map/unordered_multimap.md) |[Hash](../1_DataStructure/ch8_Hash/8_2_Hashtable.md)|Unordered|V|
+|\<unordered_set\>|[unordered_set](../2_Containers/unordered_set/unordered_set.md) |[Hash](../1_DataStructure/ch8_Hash/8_2_Hashtable.md)|Unordered|V|
+|\<unordered_set\>|[unordered_multiset](../2_Containers/unordered_set/unordered_multiset.md) |[Hash](../1_DataStructure/ch8_Hash/8_2_Hashtable.md)|Unordered|V|
+
+
+### Note: Types of container
+1. Sequence containers (Seq.)
+    - can be accessed sequentially.
+2. Associative containers (Associ.)
+    - sorted data structures that can be quickly searched.
+    - O(**log** **n**).
+3. Unordered associative containers (unorder)
+    - Unsorted (hashed) data structures that can be quickly searched 
+    - O(1) amortized, O(n) worst-case
+4. Container adaptors (adapt.)
+    - adaptors that provide different interface for sequential containers.
+
+## Member function table (c++11)
+- [Iterators](../2_Containers/member_functions/Iterators.md)
+- [Element Access](../2_Containers/member_functions/ElementAccess.md)
+- [Capacity](../2_Containers/member_functions/Capacity.md)
+- [Modifiers](../2_Containers/member_functions/Modifiers.md)
+- [List Operations](../2_Containers/member_functions/ListOperations.md)
+- [Lookup](../2_Containers/member_functions/Lookup.md)
+- [Observers](../2_Containers/member_functions/Observers.md)
+
+
 ## Refference
-[1] Fundamentals of Data Structures in C++ (2e), Ellis Horowitz, Sartaj Sahni, Dinesh P. Mehta.
+[1] [C++ reference](https://www.cplusplus.com/reference/)
+[2] [cppreference](https://en.cppreference.com/w/cpp/container)

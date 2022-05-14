@@ -18,7 +18,7 @@ Structure |**Time**| | | | | | | |**Space**
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
  ||Average| | | |Worst| | | |Worst
  ||Access|Search|Insertion|Deletion|Access|Search|Insertion|Deletion|-
-[Array](\ch2_Array\Array.md)|**o(1)**|o(n)|o(n)|o(n)|**O(1)**|O(n)|O(n)|O(n)|O(n)
+[Array](/Array.md)|**o(1)**|o(n)|o(n)|o(n)|**O(1)**|O(n)|O(n)|O(n)|O(n)
 
 
 ## C++ Container & Implementation
