@@ -24,7 +24,7 @@ Basically, we use c++ containers as data structure to implement algorithms. So, 
 |-|-|-|-|- |
 |\<array\> | [array](../2_Containers/array/array.md) |[Static continuous Array](../1_DataStructure/ch2_Array/Array.md)|Seq.|v|
 |\<vector\>|[vector](../2_Containers/vector/vector.md) |[Dynamic continuous Array](../1_DataStructure/ch2_Array/Array.md)|Seq.|-|
-|\<deque\>|[deque](../2_Containers/deque/deque.md) |[Array (*d*ouble-*e*nded *que*ue)](../1_DataStructure/ch2_Array/Array.md)|Seq.|-|
+|\<deque\>|[deque](../2_Containers/deque/deque.md) |[Array (**d**ouble-**e**nded **que**ue)](../1_DataStructure/ch2_Array/Array.md)|Seq.|-|
 | \<forward_list\> |[forward_list](../2_Containers/forward_list/forward_list.md) |[Singly-linked lists](../1_DataStructure/ch4_LinkedList/4_1_SinglyLinkedList.md)|Seq.|v|
 |\<list\>|[list](../2_Containers/list/list.md) |[Doubly-linked lists](../1_DataStructure/ch4_LinkedList/4_10_DoublyLinkedList.md)|Seq.|-|
 |\<queue\>|[queue](../2_Containers/queue/queue.md) |[(default=deque) Array](../1_DataStructure/ch2_Array/Array.md), [Doubly-linked lists](../1_DataStructure/ch4_LinkedList/4_10_DoublyLinkedList.md)|Adaptor|-|
@@ -40,7 +40,7 @@ Basically, we use c++ containers as data structure to implement algorithms. So, 
 |\<unordered_set\>|[unordered_multiset](../2_Containers/unordered_set/unordered_multiset.md) |[Hash](../1_DataStructure/ch8_Hash/8_2_Hashtable.md)|Unordered|V|
 
 
-### Note: three types of container
+### Note: Types of container
 1. Sequence containers (Seq.)
     - can be accessed sequentially.
 2. Associative containers (Associ.)
@@ -51,6 +51,17 @@ Basically, we use c++ containers as data structure to implement algorithms. So, 
     - O(1) amortized, O(n) worst-case
 4. Container adaptors (adapt.)
     - adaptors that provide different interface for sequential containers.
+
+## Member function table (c++11)
+- [Iterators](../2_Containers/member_functions/Iterators.md)
+- [Element Access](../2_Containers/member_functions/ElementAccess.md)
+- [Capacity](../2_Containers/member_functions/Capacity.md)
+- [Modifiers](../2_Containers/member_functions/Modifiers.md)
+- [List Operations](../2_Containers/member_functions/ListOperations.md)
+- [Lookup](../2_Containers/member_functions/Lookup.md)
+- [Observers](../2_Containers/member_functions/Observers.md)
+
+
 ## Refference
 [1] [C++ reference](https://www.cplusplus.com/reference/)
 [2] [cppreference](https://en.cppreference.com/w/cpp/container)
