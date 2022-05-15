@@ -57,6 +57,5 @@ Structure |**Time**| | | | | | | |**Space**
     - [vector](../2_Containers/vector/vector.md)
     - [deque](../2_Containers/deque/deque.md)
 
-## Reference
+## 7. Reference
 - [What are the applications of binary trees?](https://stackoverflow.com/questions/2130416/what-are-the-applications-of-binary-trees)
-- 
