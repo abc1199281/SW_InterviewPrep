@@ -1,21 +1,21 @@
 # Introduction
 
-In this section, we want to answer **Why and When** to use specific type of data structure.
+In this section, we want to recap **Why and When** to use specific type of algorithms.
 
-For each data structure, we would answer the questions with following structures.
+For each algorithms, we would answer the questions with following structures.
 
 ## Structures
 1. Motivation 
-    - Why do we need to learn this data structure?
+    - Why do we need to learn this algorithms?
 2. Pros. and Cons. 
+    - (Complexity)
 3. When to use?     
     - Classical applications or algorithms.
-4. Implementations
-    - array or linked list?
-    - Differenct choice of implementations. (if applicable)
+4. Implementations 
+    - Pseudo code.
 5. Possible alternatives
     - There are always trade-off.
-6. C++ Containers (if applicable)
+6. C++ algorithm (if applicable)
 7. Reference (if applicable)
 
 ## Comparison using operations

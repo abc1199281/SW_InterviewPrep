@@ -1,8 +1,14 @@
 ## Singly Linked list
 ## 1. Motivation: 
-- Use pointers and values for operations, O(1) for insertion, deletion.
-- One of the basic implementation for all others data structures. 
-    - The other one is [array](../../2_Containers/array/array.md).
+- Problem:
+    - Insertion & Deletion
+- Idea:
+    - Use pointers and values for operations, O(1) for insertion, deletion.
+- Result:
+    - One of the two basic strategy for all others data structures. 
+        - The other one is [array](../../2_Containers/array/array.md).
+- Limit:
+    - only one direction
 
 ## 2. Pros. & Cons.
 - Pros: 
@@ -13,8 +19,14 @@
 
 ## 3. When to use:
 - Applications when Insertion & Deletion dominate.
-- Algorithms:
-    - Root structure for *Tree*, *Graph*.
+- Algorithms:    
+    - fast-slow pointers: 
+        - Find the middle node.
+        - Cycle detection
+        - Given linked list with cycle, find start position.
+        - Find last k elements.
+    
+
 
 ## 4. Implementation
 - Just linked list.

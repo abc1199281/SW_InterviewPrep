@@ -1,7 +1,7 @@
 ## Priority Queue
 ## 1. Motivation: 
-- Question:
-    - For Searching, both Linked list and array require O(n). We want something faster.
+- Problem:
+    -
 - Idea:
     - Binary search only require O(log(n)), given a sorted array.
 - Solution: 
@@ -17,9 +17,7 @@
     
 
 ## 3. When to use:
-- Not recommended: 
-    - If Binary tree is non-balanced (e.g, BST), this is not very usefull.
-    - Unless the data is coming in in a relatively random order, the tree can easily degenerate into its worst-case form, which is a linked list.
+- comming soon.
 
 
 ## 4. Implementation
