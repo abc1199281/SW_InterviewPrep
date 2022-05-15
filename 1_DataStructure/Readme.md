@@ -8,7 +8,7 @@ For each data structure, we would answer the questions with following structures
     - Why to use?
 2. Pros. and Cons. 
 3. When to use? 
-    - Classical Algorithms that utilize the data structure.
+    - Classical Algorithms / leet code problems that utilize the data structure.
 4. Implementations
     - array v.s. linked list
 5. C++ Containers

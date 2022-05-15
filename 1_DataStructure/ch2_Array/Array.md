@@ -10,6 +10,7 @@
     - Performs the worst when Insertion, Deletion.
 ## 3. When to use:
 - Direct access dominates
+- Binary Search
 
 ## 4. Alternative
 - Nope
@@ -21,7 +22,7 @@ Structure |**Time**| | | | | | | |**Space**
 [Array](/Array.md)|**o(1)**|o(n)|o(n)|o(n)|**O(1)**|O(n)|O(n)|O(n)|O(n)
 
 
-## C++ Container & Implementation
+## 5. C++ Container & Implementation
 - array 
 - vector
 - deque
