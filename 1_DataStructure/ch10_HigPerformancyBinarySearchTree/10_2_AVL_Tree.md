@@ -2,7 +2,7 @@
 ## 1. Motivation: 
 - Problem:
     - Application: Search
-    - [Binary Search Tree](../1_DataStructure/ch5_Tree/5_7_BST.md)
+    - [Binary Search Tree](../ch5_Tree/5_7_BST.md)
         - [-] can easily degenrate to the worst case, O(n). 
         - [-] non-balanced.
 - Ideas:
@@ -14,23 +14,23 @@
 
 ## 2. Pros. & Cons.
 - Pros: 
-    - Comparing with non-balanced [Binary Search Tree](../1_DataStructure/ch5_Tree/5_7_BST.md)       
+    - Comparing with non-balanced [Binary Search Tree](../ch5_Tree/5_7_BST.md)       
         - Improve from O(n) to O(log(n)) for all basic operations.
-    - Comparing with [HashTable](../1_DataStructure/ch8_Hash/8_2_Hashtable.md).
+    - Comparing with [HashTable](../ch8_Hash/8_2_Hashtable.md).
         - Support traversal in order.
         - Better worst case for insertion/deletion.
         - If hash function takes too long (e.g., long string), RB tree also has advantage.
         - Hashtable is O(n), because it requires backing dynamic array. 
-    - Comparing with [Red Black Tree](../1_DataStructure/ch10_HigPerformancyBinarySearchTree/10_3_RedBlackTree.md)
+    - Comparing with [Red Black Tree](../ch10_HigPerformancyBinarySearchTree/10_3_RedBlackTree.md)
         - [+] Search is comparatively faster.
         
 - Cons:
-    - Comparing with [Binary Search Tree](../1_DataStructure/ch5_Tree/5_7_BST.md)
+    - Comparing with [Binary Search Tree](../ch5_Tree/5_7_BST.md)
         - Nope.
-    - Comparing with [HashTable](../1_DataStructure/ch8_Hash/8_2_Hashtable.md).
+    - Comparing with [HashTable](../ch8_Hash/8_2_Hashtable.md).
         - Much large average time complexity for Searching, insertion, deletion
         - t(log(n))->t(1).
-    - Comparing with [Red Black Tree](../1_DataStructure/ch10_HigPerformancyBinarySearchTree/10_3_RedBlackTree.md)
+    - Comparing with [Red Black Tree](../ch10_HigPerformancyBinarySearchTree/10_3_RedBlackTree.md)
         - [-] AVL requires another storage, one integer per node.
         - [-] Take more memory.
         - [-] Insertion, Deletion are faster.

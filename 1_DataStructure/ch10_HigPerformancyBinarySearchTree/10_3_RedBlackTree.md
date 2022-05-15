@@ -2,7 +2,7 @@
 ## 1. Motivation: 
 - Problem:
     - Application: Search
-    - binary search tree (BST)
+    - [Binary Search Tree](../ch5_Tree/5_7_BST.md)       
         - [-] can easily degenrate to the worst case, O(n). 
         - [-] non-balanced. 
     - AVL tree:
