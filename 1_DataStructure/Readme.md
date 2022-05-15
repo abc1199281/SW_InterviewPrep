@@ -14,7 +14,7 @@ For each data structure, we would answer the questions with following structures
 5. Possible alternatives
 6. C++ Containers
 
-## Comparison with Operations
+## Comparison using operations
 With known property of an algorithm, we should choose corresponding data structure, which can minimize the temporal complexity or space complexity. 
 
 Structure |**Time**| | | | | | | |**Space**
@@ -35,6 +35,10 @@ Structure |**Time**| | | | | | | |**Space**
 [Splay Tree](../1_DataStructure/ch10_HigPerformancyBinarySearchTree/10_4_SplayTree.md)|N/A|*t(log(n))*|*t(log(n))*|*t(log(n))*|N/A|*O(log(n))*|*O(log(n))*|*O(log(n))*|O(n)
 [AVL Tree](../1_DataStructure/ch10_HigPerformancyBinarySearchTree/10_2_AVL_Tree.md)|*t(log(n))*|*t(log(n))*|*t(log(n))*|*t(log(n))*|*O(log(n))*|*O(log(n))*|*O(log(n))*|*O(log(n))*|O(n)
 [KD Tree](../1_DataStructure/Others/KD_Tree.md)|*t(log(n))*|*t(log(n))*|*t(log(n))*|*t(log(n))*|O(n)|O(n)|O(n)|O(n)|O(n)
+
+### Other Usefull Data Structures
+- Heap (Priority Queue).
+- [Disjoint Set (Union-Find)](../1_DataStructure/Others/DisjointSet.md).
 
 ### Note: 
 - markdown language is hard to display Theta(n), so I replace \theta as t(n), which means average / amortized time complexity.
