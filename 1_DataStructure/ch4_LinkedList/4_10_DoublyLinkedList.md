@@ -21,16 +21,16 @@
 
 ## 5. Alternatives
 - When insertion & deletion dominates, alternatives are listed as follow.
-- Compared to [Singly-Linked List](../1_DataStructure/ch4_LinkedList/4_1_SinglyLinkedList.md), this data structure provides **bidirectional iteration** capability while being **less space efficient**.
+- Compared to [Singly-Linked List](4_1_SinglyLinkedList.md), this data structure provides **bidirectional iteration** capability while being **less space efficient**.
 
 Structure |**Time**| | | | | | | |**Space**
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
  ||Average| | | |Worst| | | |Worst
  ||Access|Search|Insertion|Deletion|Access|Search|Insertion|Deletion|-
-[Stack](../1_DataStructure/ch3_StackAndQueue/3_2_Stack.md)|o(n)|o(n)|**o(1)**|**o(1)**|O(n)|O(n)|**O(1)**|**O(1)**|O(n)
-[Queue](../1_DataStructure/ch3_StackAndQueue/3_3_Queue.md)|o(n)|o(n)|**o(1)**|**o(1)**|O(n)|O(n)|**O(1)**|**O(1)**|O(n)
-[Singly-Linked List](../1_DataStructure/ch4_LinkedList/4_1_SinglyLinkedList.md)|o(n)|o(n)|**o(1)**|**o(1)**|O(n)|O(n)|**O(1)**|**O(1)**|O(n)
-[Doubly-Linked List](../1_DataStructure/ch4_LinkedList/4_10_DoublyLinkedList.md)|o(n)|o(n)|**o(1)**|**o(1)**|O(n)|O(n)|**O(1)**|**O(1)**|O(n)
+[Stack](../ch3_StackAndQueue/3_2_Stack.md)|o(n)|o(n)|**o(1)**|**o(1)**|O(n)|O(n)|**O(1)**|**O(1)**|O(n)
+[Queue](../ch3_StackAndQueue/3_3_Queue.md)|o(n)|o(n)|**o(1)**|**o(1)**|O(n)|O(n)|**O(1)**|**O(1)**|O(n)
+[Singly-Linked List](4_1_SinglyLinkedList.md)|o(n)|o(n)|**o(1)**|**o(1)**|O(n)|O(n)|**O(1)**|**O(1)**|O(n)
+[Doubly-Linked List](4_10_DoublyLinkedList.md)|o(n)|o(n)|**o(1)**|**o(1)**|O(n)|O(n)|**O(1)**|**O(1)**|O(n)
 
 ## 6. C++ Container
 - Sequence Containers
