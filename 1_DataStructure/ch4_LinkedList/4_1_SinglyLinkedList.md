@@ -21,7 +21,7 @@
 
 ## 5. Alternatives
 - When insertion & deletion dominates, alternatives are listed as follow.
-- Compared to [Doubly-Linked List](../1_DataStructure/ch4_LinkedList/4_10_DoublyLinkedList.md), this data structure provides **more space efficient storage** when **bidirectional iteration** is not needed.
+- Compared to [Doubly-Linked List](4_10_DoublyLinkedList.md) this data structure provides **more space efficient storage** when **bidirectional iteration** is not needed.
 
 
 Structure |**Time**| | | | | | | |**Space**
