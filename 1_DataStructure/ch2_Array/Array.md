@@ -18,7 +18,7 @@
 - Just array.
 
 ## 5. Alternative
-- Nope
+- When direct access dominates, array is the best choice.
 
 Structure |**Time**| | | | | | | |**Space**
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:

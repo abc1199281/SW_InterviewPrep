@@ -18,10 +18,10 @@
 
 ## 4. Implementation
 - By array
-    - Pros: save space
-    - Cons: Deal with enlarging / shrink space.
+    - Pros: save space (address)
+    - Cons: Large effort when expanding/contracting space.
 - By Linked list
-    - Pros: No need of enlarging / shrink space.
+    - Pros: little effort when expanding/contracting space 
     - Cons: More space for address
 - By deque (Default in c++)
     - Hybrid of both

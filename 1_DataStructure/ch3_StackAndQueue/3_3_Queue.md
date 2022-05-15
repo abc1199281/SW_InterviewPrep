@@ -17,10 +17,10 @@
     
 ## 4. Implementation
 - By array
-    - Pros: save space
-    - Cons: Deal with enlarging / shrink space.
+    - Pros: save space (address)
+    - Cons: Large effort when expanding/contracting space.
 - By Linked list
-    - Pros: No need of enlarging / shrink space.
+    - Pros: little effort when expanding/contracting space 
     - Cons: More space for address
 - By deque (Default in c++)
     - Hybrid of both
@@ -29,7 +29,7 @@
     - For detail, please see ([deque](../2_Containers/deque/deque.md))
    
 ## 5. Alternative
-- Insertion & Deletion dominates
+- When insertion & deletion dominates, alternatives are listed as follow.
 
 Structure |**Time**| | | | | | | |**Space**
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
