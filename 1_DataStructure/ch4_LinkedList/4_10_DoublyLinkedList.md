@@ -1,8 +1,12 @@
 ## Doubly Linked list
 ## 1. Motivation: 
-- Use pointers and values for operations, O(1) for insertion, deletion.
-- One of the basic implementation for all others data structures. 
-    - The other one is [array](../../2_Containers/array/array.md).
+- Problem:
+    - Insertion & Deletion
+    - Two directions
+- Idea:
+    - doubly linked
+- Result:
+    - two direction with the cost of space.
 
 ## 2. Pros. & Cons.
 - Pros: 

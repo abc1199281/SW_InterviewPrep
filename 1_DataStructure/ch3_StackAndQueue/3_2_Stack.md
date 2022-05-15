@@ -1,7 +1,9 @@
 ## Stack
 ## 1. Motivation
-- Insertion & Deletion dominates
-- First in last out (FILO).
+- Problem:
+    - Insertion & Deletion
+- Assumption: 
+    - First in last out (FILO)
 
 ## 2. Pros. & Cons.
 - Pros: 

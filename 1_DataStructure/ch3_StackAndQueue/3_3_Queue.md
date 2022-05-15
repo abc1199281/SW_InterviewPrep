@@ -1,7 +1,9 @@
 ## Queue
 ## 1. Motivation
-- Insertion & Deletion dominates
-- First in first out (FIFO).
+- Problem:
+    - Insertion & Deletion
+- Assumption: 
+    - First in first out (FIFO).
 
 ## 2. Pros. & Cons.
 - Pros: 

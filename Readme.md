@@ -1,4 +1,4 @@
-# My Engineer / Research Knowledge Guide
+# My Engineer / Research Knowledge domains notes
 ## Motivation
 As an engineer or researcher, there are limitless things to learn.
 
@@ -10,7 +10,7 @@ Thus, based on the bible of discrete-time signal processing, I developed my firs
 
 Similarily, there are many other knowledge areas that a researcher/engineer should be familiar with. For each knowledge area, I order the topic aligned with the most clasic bible I could find.
 
-I hope that, this self-education notes will help me fastly recap important knowledge while prepraing any further interview.
+I hope that, this self-education notes will help me effectively recap important knowledge while prepraing any further interview or dealing with related problem in work.
 
 ## Knowledge domains 
 1. Data Structure
@@ -30,6 +30,7 @@ I hope that, this self-education notes will help me fastly recap important knowl
     - virtual function v.s. pure virtual function.
 6. Computer Organization and Design    
     - Data path for different CPU stages.
+    - mimic a CPU / assembler using python.
 7. RTL concept
     - mimic a CPU    
 8. Design pattern

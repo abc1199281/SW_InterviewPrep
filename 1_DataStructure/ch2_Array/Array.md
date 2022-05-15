@@ -1,8 +1,12 @@
 ## Array
 ## 1. Motivation: 
-- Continuous space, O(1) for direct access.
-- One of the basic implementation for all the others data structures. 
-    - The other basic one is the [Linked List](../1_DataStructure/ch4_LinkedList/4_1_SinglyLinkedList.md).
+- Problem:
+    - Access
+- Idea:
+    - Continuous space, O(1) for direct access.
+- Results:
+    - One of the two basic strategy for all the others data structures. 
+        - The other basic one is the [Linked List](../1_DataStructure/ch4_LinkedList/4_1_SinglyLinkedList.md).
 
 ## 2. Pros. & Cons.
 - Pros: 
