@@ -41,8 +41,8 @@ Structure |**Time**| | | | | | | |**Space**
 - [Disjoint Set (Union-Find)](../1_DataStructure/Others/DisjointSet.md).
 
 ### Note: 
-- markdown language is hard to display Theta(n), so I replace \theta as t(n), which means average / amortized time complexity.
-
+1. Markdown language is difficult to display Theta(n). So, throughout this repository, I replace \theta with t(n), which means average / amortized time complexity.
+2. The chapter number for each data structure are aligned with the bible of data structure [1].
 
 ## Refference
-[1] Fundamentals of Data Structures in C++ (2e), Ellis Horowitz, Sartaj Sahni, Dinesh P. Mehta.
+[1] Fundamentals of Data Structures in C++ (2e), 2007, Ellis Horowitz, Sartaj Sahni, Dinesh P. Mehta.

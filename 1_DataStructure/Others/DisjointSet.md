@@ -24,11 +24,11 @@ TimeComplexity|O(N)|O(a(N))|O(a(N))|O(a(N))|
     - Constant time complexity for graph's connectivity.
 - Cons:
     - Almost nope.
-    - If we must to say, it requires O(n) for construction, two vector.
+    - If we must to say, it requires two vectors.
     
 ## 3. When to use:
 - Check connectivity.
-- Find the number of connected groups / un-counnected groups
+- Find the number of connected groups / un-counnected groups.
 
 
 ## 4. Implementation
@@ -91,7 +91,7 @@ public:
 ~~~
 
 ## 5. Alternative
-- For connectivity problems, there is no algernative solution. Because it has been almost constant time complexity.
+- For connectivity problems, there is no better solution. Because it has been almost constant time complexity.
 
 ## 6. C++ Container
 - No existing containers, we should implemented them.
