@@ -1,4 +1,4 @@
-## Binary Search Tree (BST)
+## Priority Queue
 ## 1. Motivation: 
 - Question:
     - For Searching, both Linked list and array require O(n). We want something faster.
@@ -6,12 +6,6 @@
     - Binary search only require O(log(n)), given a sorted array.
 - Solution: 
     - Applying the concept of **binary search** while building **dictionary**.
-
-### 1.1 Properties
-- Each element has unique key.
-- All keys in left sub-tree are smaller than the key of its root. 
-- All keys in right sub-tree are greater than the key of its root. 
-- Each sub-tree is also binary search tree.
 
 ## 2. Pros. & Cons.
 - Pros: 
@@ -52,11 +46,5 @@ Structure |**Time**| | | | | | | |**Space**
 
 
 ## 6. C++ Container
-- Sequence Containers
-    - [array](../2_Containers/array/array.md)
-    - [vector](../2_Containers/vector/vector.md)
-    - [deque](../2_Containers/deque/deque.md)
-
-## Reference
-- [What are the applications of binary trees?](https://stackoverflow.com/questions/2130416/what-are-the-applications-of-binary-trees)
-- 
+- Adaptor Containers
+    - [priority_queue](../../2_Containers/queue/priority_queue.md)
