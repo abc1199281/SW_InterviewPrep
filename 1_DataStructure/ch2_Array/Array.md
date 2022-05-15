@@ -1,7 +1,8 @@
 ## Array
 ## 1. Motivation: 
-- One of the basic implementation for all others data structures. 
-- The other basic data staructure is linked list.
+- Continuous space, O(1) for direct access.
+- One of the basic implementation for all the others data structures. 
+    - The other basic one is the [Linked List](../1_DataStructure/ch4_LinkedList/4_1_SinglyLinkedList.md).
 
 ## 2. Pros. & Cons.
 - Pros: 
@@ -10,7 +11,7 @@
     - O(n), when expanding/contraction space 
     - Performs the worst when Insertion, Deletion.
 ## 3. When to use:
-- Direct access dominates
+- Applications when Direct accessing dominates
     - Binary Search
     - Dynamic Programming
 

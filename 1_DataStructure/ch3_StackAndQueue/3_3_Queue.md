@@ -1,7 +1,7 @@
 ## Queue
 ## 1. Motivation
 - Insertion & Deletion dominates
-- FIFO
+- First in first out (FIFO).
 
 ## 2. Pros. & Cons.
 - Pros: 
@@ -10,6 +10,7 @@
     - O(n) for Access & Search.
 
 ## 3. When to use:
+- Applications when Insertion & Deletion dominate.
 - Algorithms
     - Iterative BFS traversal
         - Same layer first in, firt process same layer (FIFO)

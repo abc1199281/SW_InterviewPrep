@@ -1,7 +1,7 @@
 ## Stack
 ## 1. Motivation
 - Insertion & Deletion dominates
-- FILO
+- First in last out (FILO).
 
 ## 2. Pros. & Cons.
 - Pros: 
@@ -10,6 +10,7 @@
     - O(n) for Access & Search.
 
 ## 3. When to use:
+- Applications when Insertion & Deletion dominate.
 - Algorithms
     - Iterative DFS traversal
         - Deeper layer first in, process them first (FILO)
@@ -30,7 +31,7 @@
     - For detail, please see ([deque](../2_Containers/deque/deque.md))
    
 ## 5. Alternative
-- Insertion & Deletion dominates
+- When insertion & deletion dominates, alternatives are listed as follow.
 
 Structure |**Time**| | | | | | | |**Space**
 :-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:|:-----:
