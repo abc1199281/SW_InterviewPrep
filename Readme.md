@@ -12,5 +12,6 @@ This is my summary & tool kit for SW interview.
     - So, we should really understand the foundmental implemetations of C++ containers.
 3. Algorithms
     - 
-
+4. C language
+5. 
 ##

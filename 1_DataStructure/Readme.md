@@ -11,8 +11,8 @@ For each data structure, we would answer the questions with following structures
     - Classical Algorithms / leet code problems that utilize the data structure.
 4. Implementations
     - array v.s. linked list
-5. C++ Containers
-6. Possible alternatives
+5. Possible alternatives
+6. C++ Containers
 
 ## Operations
 With known property of an algorithm, we should choose corresponding data structure, which can minimize the temporal complexity or space complexity. 
