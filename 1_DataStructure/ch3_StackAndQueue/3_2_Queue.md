@@ -2,6 +2,7 @@
 ## Motivation
 - Insertion & Deletion dominates
 - FIFO
+
 ## Pros. & Cons.
 - Pros: 
     - O(1) for Insertion & Deletion.
@@ -10,17 +11,18 @@
 
 ## When to use:
 - Algorithms
-    - BFS traversal with loop
+    - Iterative BFS traversal
         - Same layer first in, firt process same layer (FIFO)
+        - Need to keep the number of next layer.
     
 
 ## C++ Container & Implementation
+- By array (Default=deque)
+    - Pros: save space
+    - Cons: Deal with enlarging / shrink space.
 - By Linked list
     - Pros: No need of enlarging / shrink space.
     - Cons: More space for address
-- By array 
-    - Pros: save space
-    - Cons: Deal with enlarging / shrink space.
 
 ## C++ Container & usage
 ~~~c++
