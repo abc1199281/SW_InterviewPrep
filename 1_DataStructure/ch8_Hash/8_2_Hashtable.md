@@ -55,6 +55,8 @@
 4. array or linked list:
     - Hash table is essetially an application of array.
     - Dynamic Hash requires some pointers.
+5. Classic problems
+    - See [705. Design HashSet](https://leetcode.com/problems/design-hashset/)
 
 ## 5. Alternative
 

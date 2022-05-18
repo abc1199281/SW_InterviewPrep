@@ -3,20 +3,16 @@
 In this section, we want to answer **Why and When** to use specific type of data structure.
 
 For each data structure, we would answer the questions with following structures.
-
 ## Structures
 1. Motivation 
-    - Why do we need to learn this data structure?
+    - Why to use?
 2. Pros. and Cons. 
-3. When to use?     
-    - Classical applications or algorithms.
+3. When to use? 
+    - Classical Algorithms / leet code problems that utilize the data structure.
 4. Implementations
-    - array or linked list?
-    - Differenct choice of implementations. (if applicable)
+    - array v.s. linked list
 5. Possible alternatives
-    - There are always trade-off.
-6. C++ Containers (if applicable)
-7. Reference (if applicable)
+6. C++ Containers
 
 ## Comparison using operations
 With known property of an algorithm, we should choose corresponding data structure, which can minimize the temporal complexity or space complexity. 
@@ -41,16 +37,12 @@ Structure |**Time**| | | | | | | |**Space**
 [KD Tree](../1_DataStructure/Others/KD_Tree.md)|*t(log(n))*|*t(log(n))*|*t(log(n))*|*t(log(n))*|O(n)|O(n)|O(n)|O(n)|O(n)
 
 ### Other Usefull Data Structures
-- [Heap (Priority Queue)](../1_DataStructure/ch9_PriorityQueue/9_1_PriorityQueue.md).
+- [Heap (Priority Queue)]().
 - [Disjoint Set (Union-Find)](../1_DataStructure/Others/DisjointSet.md).
-- [BLLOM Filter](../1_DataStructure/ch8_Hash/8_4_BLOOM_Filter.md).
 
 ### Note: 
 1. Markdown language is difficult to display Theta(n). So, throughout this repository, I replace \theta with t(n), which means average / amortized time complexity.
 2. The chapter number for each data structure are aligned with the bible of data structure [1].
-
-## Sorting
-
 
 ## Refference
 [1] Fundamentals of Data Structures in C++ (2e), 2007, Ellis Horowitz, Sartaj Sahni, Dinesh P. Mehta.

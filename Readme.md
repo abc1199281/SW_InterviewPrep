@@ -12,16 +12,20 @@ Similarily, there are many other knowledge areas that a researcher/engineer shou
 
 I hope that, this self-education notes will help me effectively recap important knowledge while prepraing any further interview or dealing with related problem in work.
 
-## Knowledge domains 
+## Knowledge areas 
+0. [Discrete Time Signal processing](https://github.com/abc1199281/DSP_lab)
+    - This is my major during Ph.D. program.
 1. Data Structure
     - In this section, we want to answer **Why and When** to use specific type of data structure.
 2. C++ Containers
     - When it comes to implementation, there is still a question, **How?**
     - Basically, we use c++ containers as data structure to implement algorithms. 
     - So, we should really understand the foundmental implemetations of C++ containers.
-
-## Future topic
 3. Algorithms
+    - Part I: **Why and Whan?**, recap classical algorithm.
+    - Part II: **How**, C++'s \<algorithm\>
+    - Part III: **How**, Unify framework for Leet code.
+## Future topic
 4. C language
     - memory allocation (stack, heap, etc.) for differnt variables.
     - Note for macro usage.
