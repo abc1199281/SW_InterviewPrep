@@ -1,5 +1,6 @@
-# What is the difference between .emplace_back() & .push_back()
+# 42. What is the difference between .emplace_back() & .push_back()
 
+## *Item 42: Consider emplacement instead of insertion.*
 ## Quick answer
 1. **.emplace_back()**:
     - Declaration
@@ -16,7 +17,6 @@
 
 2. **.push_back()**
     - The content of val is **copied (or moved)** to the new element.
-    - 
     - What happened:
         1. Constructor->temporary object
         2. Copy of the temporary object being constructed in the memory of container.
