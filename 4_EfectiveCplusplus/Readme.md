@@ -23,11 +23,11 @@ There are several levels for me to record.
 
 # Outline
 ### Basic
-- [[Others] What is the difference between Malloc & New? (free & delete) [2022/05/18] ](others\Diff_New_Malloc.md)
-- [[EMC: Item 42] What is the difference between .push_back() and .emplace_back()? [2022/05/18]](EMC_8_Tweaks\Diff_emplace_back_push_back.md)
-- [[others] What is the difference between function argument and parameter? [2022/05/19]](others\Diff_function_argument_parameter.md)
-- [[others] What is the lvalue and rvalue?](others\left_value_right_value.md)
-- [[others] What is the Uniform Initialization?]()
+- [[Others] What is the difference between Malloc & New? (free & delete) [2022/05/18] ](others/Diff_New_Malloc.md)
+- [[EMC: Item 42] What is the difference between .push_back() and .emplace_back()? [2022/05/18]](EMC_8_Tweaks/Diff_emplace_back_push_back.md)
+- [[others] What is the difference between function argument and parameter? [2022/05/19]](others/Diff_function_argument_parameter.md)
+- [[others] What is the lvalue and rvalue?](others/left_value_right_value.md)
+- [[others] What is the Uniform Initialization?](others/UniformInitialization.md)
 
 ### Middle
 
