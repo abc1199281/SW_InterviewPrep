@@ -9,10 +9,13 @@ There are several levels for me to record.
 
 - [Basic] :
     - Classic C++/C concepts.
+    - Entry level C++11 concept: 
+        - Why this new function?
+        - Difference
 
 - [Middle] :
     - Eaisly confused concepts.
-    - C++11 concepts.
+    - More foundamental C++11.
 
 - [Advanced] :
     - Newer than C++11
@@ -21,9 +24,10 @@ There are several levels for me to record.
 # Outline
 ### Basic
 - [[Others] What is the difference between Malloc & New? (free & delete) [2022/05/18] ](others\Diff_New_Malloc.md)
-- [[Others] What is the difference between .push_back() and .emplace_back()? [2022/05/18]]()
+- [[EMC: Item 42] What is the difference between .push_back() and .emplace_back()? [2022/05/18]](EMC_8_Tweaks\Diff_emplace_back_push_back.md)
 
 ### Middle
+
 
 ### Advanced
 

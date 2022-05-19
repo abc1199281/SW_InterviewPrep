@@ -1,6 +1,7 @@
-# 42. What is the difference between .emplace_back() & .push_back()
+# What is the difference between .emplace_back() & .push_back()
 
-## *Item 42: Consider emplacement instead of insertion.*
+## Related items:
+- *Item 42: Consider emplacement instead of insertion.*
 ## Quick answer
 1. **.emplace_back()**:
     - Declaration
