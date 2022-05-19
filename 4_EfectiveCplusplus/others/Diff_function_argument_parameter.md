@@ -1,6 +1,6 @@
 # What is the difference between argument & parameter?
 
-## Answer
+## Summary
 ~~~c++
 void SomeFunc(Widget w);
 // w is parameter, pass by reference.

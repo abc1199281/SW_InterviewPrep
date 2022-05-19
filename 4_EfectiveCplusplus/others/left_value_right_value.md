@@ -1,6 +1,6 @@
 # What is left value, right value
 
-## Simple answer
+## Summary
 0. Motivation:
     - For **move semantic**.
 1. left value:
@@ -21,13 +21,14 @@
     - after assignment (=), doesn't exist.
     - can use **move operation**.
 
-## Can function be a lvalue? Yes
+## Detailed Information
+### Can function be a lvalue? Yes
 ~~~c++
 vector<int> vec={1,2,3};
 vec[1]=99;// overload operator[]<-- function as lvalue
 ~~~
 
-## More powerfull: prvalue (pure rvalue) & xvalue (expiring value)
+### More powerfull: prvalue (pure rvalue) & xvalue (expiring value)
 - prvalue (e.g.,)
     - constant: 10, true
     - temporary result: 1+2
@@ -46,7 +47,7 @@ vec[1]=99;// overload operator[]<-- function as lvalue
     // move operation.
     */
     ~~~
-## rvalue reference, lvalue reference
+### rvalue reference, lvalue reference
 - Before c++11:
     - lvalue reference (T&)
     ~~~c++

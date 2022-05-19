@@ -1,18 +1,18 @@
 # What is the difference between Malloc & New
 
-## Simple answer
-1. **new/delete** operator
+## Summary
+1. **new/delete**: do
     - new: 
         1. allocates memory
         2. call constructor
     - delete:
         1. calls destructor
         2. deallocates memory
-2. **malloc/free**
+2. **malloc/free**: do
     - malloc: allocate memory
     - free: deallocate memory
 
-## Table
+## Detailed information
 
 Feature|new/delete|malloc/free|
 -|-|-|

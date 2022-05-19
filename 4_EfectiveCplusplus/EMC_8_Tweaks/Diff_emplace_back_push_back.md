@@ -1,8 +1,9 @@
-# What is the difference between .emplace_back() & .push_back()
+# [Item 42] What is the difference between .emplace_back() & .push_back()
 
-## Related items:
+### Related items:
 - *Item 42: Consider emplacement instead of insertion.*
-## Quick answer
+
+## Summary
 1. **.emplace_back()**:
     - Declaration
     ~~~c++
@@ -12,7 +13,7 @@
 2. **.push_back()**
     - The content of val is **copied (or moved)** to the new element. This might make unnecessary copies.
 
-## Detailed answer
+## Detailed information
 1. **.emplace_back()**:
     - Instead of taking a **value_type** it takes a **variadic list** of arguments, so that means that you can now **perfectly forward** the arguments and construct directly an object into a container without a temporary at all.
 
@@ -37,7 +38,6 @@ output
 ~~~c++
 Vector Size = 1000000
 ~~~
-
 
 ## Ref:
 [1] [What is the difference between new/delete and malloc/free?](https://stackoverflow.com/questions/4303513/push-back-vs-emplace-back)

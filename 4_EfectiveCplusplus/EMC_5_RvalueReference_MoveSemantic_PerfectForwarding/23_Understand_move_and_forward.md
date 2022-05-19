@@ -1,13 +1,6 @@
 # Item 23: understand std::move & std::forward
 
-### Note:
-- All **parameters** are lvalue.
-~~~c++
-void f(widget&& w);
-// w is parameters, lvalue with rvalue reference type.
-~~~
-
-## Quick answer
+## Summary
 1. **std::move**:
     - std::move forcely transfers parameter into rvalue.
 2. **std::forward**    
@@ -23,3 +16,9 @@ typename remove_reference<T>::type&& move(T&& param)
 }
 ~~~
 
+### Note:
+- All **parameters** are lvalue.
+~~~c++
+void f(widget&& w);
+// w is parameters, lvalue with rvalue reference type.
+~~~
