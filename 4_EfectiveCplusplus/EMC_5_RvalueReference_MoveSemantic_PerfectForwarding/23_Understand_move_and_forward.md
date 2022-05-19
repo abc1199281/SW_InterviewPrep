@@ -23,8 +23,3 @@ typename remove_reference<T>::type&& move(T&& param)
 }
 ~~~
 
-
-
-
-## Detailed answer
-TBD

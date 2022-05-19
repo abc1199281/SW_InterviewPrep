@@ -74,4 +74,4 @@ vec[1]=99;// overload operator[]<-- function as lvalue
     ~~~
 
 ## Ref:
-[1] [What is the difference between new/delete and malloc/free?](https://stackoverflow.com/questions/240212/what-is-the-difference-between-new-delete-and-malloc-free)
+[1] Effective Morden C++, p3-p4.
