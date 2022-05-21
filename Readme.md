@@ -10,38 +10,36 @@ Thus, based on the bible of discrete-time signal processing, I developed my firs
 
 Similarily, there are many other knowledge areas that a researcher/engineer should be familiar with. For each knowledge area, I order the topic aligned with the most clasic bible I could find.
 
-I hope that, this self-education notes will help me effectively recap important knowledge while prepraing any further interview or dealing with related problem in work.
+I hope that, this self-education notes will help me effectively recap important knowledge while prepraing any further interview or dealing with related problems in work.
 
 ## Knowledge areas 
 0. [Discrete Time Signal processing](https://github.com/abc1199281/DSP_lab)
     - This is my major during Ph.D. program.
-1. Data Structure
+1. [Data Structure](/1_DataStructure/Readme.md)
     - In this section, we want to answer **Why and When** to use specific type of data structure.
-2. C++ Containers
+2. [C++ Containers](/2_Containers/Readme.md)
     - When it comes to implementation, there is still a question, **How?**
     - Basically, we use c++ containers as data structure to implement algorithms. 
     - So, we should really understand the foundmental implemetations of C++ containers.
-3. Algorithms
+3. [Algorithms](/3_Algorithm/Readme.md)
     - Part I: **Why and Whan?**, recap classical algorithm.
     - Part II: **How**, C++'s \<algorithm\>
     - Part III: **How**, Unify framework for Leet code.
-3. Effective C++
+3. [Effective C++](/4_EfectiveCplusplus/Readme.md)
     - A tour of C/C++
         - Memory layout, storage classes, RAII, etc.
     - C++11
         - Move semantic, forward, rvalue reference
     - Confusing questions
         - e.g., Initial value or array.
+        - virtual function v.s. pure virtual function.
 ## Future topic
-5. Object oriented programming    
-    - internal behavior of inherentacne.
-    - virtual function v.s. pure virtual function.
-6. Computer Organization and Design    
+4. Computer Organization and Design    
     - Data path for different CPU stages.
     - mimic a CPU / assembler using python.
-7. RTL concept
+5. RTL concept
     - mimic a CPU    
-8. Design pattern
-9. Image signal processor
-10. Image quality evaluation
-11. PMP / Agile
+6. Design pattern
+7. Image signal processor
+8. Image quality evaluation
+9. PMP / Agile
