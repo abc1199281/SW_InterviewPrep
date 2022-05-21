@@ -37,8 +37,10 @@ Here I record all the questions come into my mind while learning C++11. There ar
 - [[others] What is the difference between function argument and parameter? [2022/05/19]](others/Diff_function_argument_parameter.md)
 - [[others] What is the lvalue and rvalue? [2022/05/19]](others/left_value_right_value.md)
 - [[others] What is the Uniform Initialization? [2022/05/20]](others/UniformInitialization.md)
-- [[others] What is the Rules of Three (or Rules of Big 5) in C++? [2022/05/21]](others/RulesOfThree.md)
+- [[others] What is the Rules of Three (or Rules of Big 5) in C++? [2022/05/21]](EC_2_ConstructorDestructorsAndAssignmentOperators/RulesOfThree.md)
 
+- [[others] What is the usage of mutable? [2022/05/21]](others/UsageOfMutable.md)
+- [[others] What is the automatic variable? [2022/05/21]](others/WhatIsAutomaticVariable.md)
 
 ### Middle
 - [[EMC_7_Concurrency] What is the implementation of lock_guard? [2022/05/21]](EMC_7_ConcurrencyAPI/ImplementationOf_lock_gurad.md)

@@ -1,6 +1,6 @@
 # What is the Rules of Three in C++?
 
-## Simple answer
+## Summary
 0. Motivation:
     - Simple and Effective Rule for Resource (memory) management in OOP).    
     - Avoid memory reallocation or twice releasing.

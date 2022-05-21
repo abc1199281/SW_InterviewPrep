@@ -12,6 +12,7 @@
         - **Automatic** variables.
     4. Free Store (or Heap)
         - **Dynamic** variables.
+        - If not freed properlly, there is **memory leak**.
 
 ![Memory Layout](https://media.geeksforgeeks.org/wp-content/uploads/memoryLayoutC.jpg)
 
@@ -44,7 +45,10 @@
 
 4. Heap (or Free Storage)
     - Usually, Free storage equals to Heap. - Begins at the end of BSS.
-    - managed by malloc/free/new/delete
+    - managed by malloc/free/new/delete.
+    - **If you try to use the pointers to freed memory after you free them, it will cause undefined behavior.**
+        - Solution:
+            - set the freed pointers to **nullptr** immediately after *delete*.
     - Implementation
         - mmap to reserve potentially non-contiguous regions of virtual memory into the process' virtual address space.
 ## Example
@@ -66,7 +70,9 @@ int main(void)
 - Block scope variables (**including function parameters**) are **automatic** storage (**stack**) by default, except **static** keyword.
 - Dynamic variables **(Heap)** are allocated at run time using **new**/**malloc** and **delete**/**free**.
 
-### Note: It can be examed via **size** command as described in [4](https://www.geeksforgeeks.org/memory-layout-of-c-program/).
+### Note: 
+1. Good examples are illustrated in UIUC's resource [5](https://courses.engr.illinois.edu/cs225/sp2022/resources/stack-heap/).
+2. It can be examed via **size** command as described in [4](https://www.geeksforgeeks.org/memory-layout-of-c-program/).
 
 ## Ref
 1. [Memory Layout in C](https://www.geeksforgeeks.org/memory-layout-of-c-program/)
