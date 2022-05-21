@@ -2,12 +2,13 @@
 ## Motivation
 *Do things right and do the rignt thing.*
 
-There are plenty ways to implement things. How to do things right? 
+There are plenty ways to implement things. But, how to do things right? 
 
-We should follow the new standard C++ so that we can utilize more effective tools.
+1. We should follow the new standard C++ so that we can utilize more effective tools.
+2. We should understand the foundamental of C/C++ scheme (e.g., memory allocation).
 
 ## Category Method
-Here I record all the questions come into my mind while learning C++11. There are several levels for me to record.
+Here I record all the questions come into my mind while learning C++11/C. There are several levels for me to record.
 
 - [Basic] :
     - Classic C++/C concepts.
@@ -16,11 +17,14 @@ Here I record all the questions come into my mind while learning C++11. There ar
         - Difference
 
 - [Middle] :
+    - Important concepts.
     - Eaisly confused concepts.
     - Foundamental implementation of C++11.
 
 - [Advanced] :
+    - Integration with several concepts.
     - Newer than C++11
+
 
 ## Structure of each answer.
 ### Summary
@@ -32,6 +36,7 @@ Here I record all the questions come into my mind while learning C++11. There ar
 ### Basic
 - [[EC_3_ResourceManage] What is the RAII? [2022/05/21]](EC_3_ResourceManagement/RAII.md)
 - [[EC_5_Implementation] What is the memory layout? [2022/05/21]]()
+- [[EMC_5_MoveSemanticForward] 23: understand std::move & std::forward [2022/05/18]](EMC_5_RvalueReference_MoveSemantic_PerfectForwarding/23_Understand_move_and_forward.md)
 - [[EMC_8_Tweaks] 42. What is the difference between .push_back() and .emplace_back()? [2022/05/18]](EMC_8_Tweaks/Diff_emplace_back_push_back.md)
 - [[others] What is the difference between Malloc & New? (free & delete) [2022/05/18] ](others/Diff_New_Malloc.md)
 - [[others] What is the difference between function argument and parameter? [2022/05/19]](others/Diff_function_argument_parameter.md)
@@ -44,15 +49,17 @@ Here I record all the questions come into my mind while learning C++11. There ar
 
 ### Middle
 - [[EMC_7_Concurrency] What is the implementation of lock_guard? [2022/05/21]](EMC_7_ConcurrencyAPI/ImplementationOf_lock_gurad.md)
-- [[others] Why can I return a local declared vector? [2022/05/21]](others/WhyCanIReturnLocalDeclarecVector.md)
-- [[others] What is the initial value of int array?](others/InitialValueOfArray.md)
+
+- [[others] What is the initial value of int array? [2022/05/21]](others/InitialValueOfArray.md)
 - [[others] What is the Memory layout? [2022/05/21]](others/MemoryLayout.md)
 - [[others] What is the Storage Classes? [2022/05/21]](others/StorageClasses.md)
 
 ### Advanced
-
+- [[others] Why can I return a local declared vector? [2022/05/21]](others/WhyCanIReturnLocalDeclarecVector.md)
 
 ## Reference
 [1] Effective C++: 55 Specific Ways to Improve Your Programs and Designs 3rd Edition, Scott Meyers.
 
 [2] Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++14 1st Edition, Scott Meyers.
+
+[3] A Tour of C++, Bjarne Stroustrup
