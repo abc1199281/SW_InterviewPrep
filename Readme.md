@@ -25,10 +25,14 @@ I hope that, this self-education notes will help me effectively recap important 
     - Part I: **Why and Whan?**, recap classical algorithm.
     - Part II: **How**, C++'s \<algorithm\>
     - Part III: **How**, Unify framework for Leet code.
+3. Effective C++
+    - A tour of C/C++
+        - Memory layout, storage classes, RAII, etc.
+    - C++11
+        - Move semantic, forward, rvalue reference
+    - Confusing questions
+        - e.g., Initial value or array.
 ## Future topic
-4. C language
-    - memory allocation (stack, heap, etc.) for differnt variables.
-    - Note for macro usage.
 5. Object oriented programming    
     - internal behavior of inherentacne.
     - virtual function v.s. pure virtual function.
