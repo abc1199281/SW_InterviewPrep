@@ -11,7 +11,7 @@ int* p = new int[5];
 ~~~
 What is the initial value of the integers??
 
-## Quick Answer
+## Summary
 ~~~c++
 int a[10];  
 // Global variable in Data Segment -> initialised to 0
@@ -63,3 +63,6 @@ void foo(void) {
 ## Ref
 1. [initial value of int array in C](https://stackoverflow.com/questions/1414215/initial-value-of-int-array-in-c)
 2. [How can I make new default-initialize the array of primitive types?](https://stackoverflow.com/questions/2468203/how-can-i-make-new-default-initialize-the-array-of-primitive-types)
+
+### Date
+2022/05/21

@@ -1,6 +1,6 @@
 # What is the RAII (Resource Acquisition is initialization)?
 
-## Simple answer
+## Summary
 - Motivation:
     - Simple and Effective Rule for Resource Management in OOP.  
     - Implicit, and safe.
@@ -14,12 +14,9 @@
 ### Applications
 - memory of containers
     - string, vector, map, unordered_map, etc.
-- thread, lock_guard, unique_lock
+- thread, [lock_guard](/4_EfectiveCplusplus/EMC_7_ConcurrencyAPI/ImplementationOf_lock_gurad.md), unique_lock
 - ifstream, ofstream
 - unique_ptr, shared_ptr
-
-### Limitation
-- RAII only works for resources acquired and released (directly or indirectly) by stack-allocated objects, where there is a well-defined static object lifetime.
 
 ## Ref:
 [1] [Wiki: RAII](https://en.wikipedia.org/wiki/Resource_acquisition_is_initialization)

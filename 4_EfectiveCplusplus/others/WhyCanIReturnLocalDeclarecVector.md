@@ -135,3 +135,6 @@ int main(){
 2. [When vectors are allocated, do they use memory on the heap or the stack?](https://stackoverflow.com/questions/8036474/when-vectors-are-allocated-do-they-use-memory-on-the-heap-or-the-stack)
 3. [Efficient way to return a std::vector in C++](https://stackoverflow.com/questions/15704565/efficient-way-to-return-a-stdvector-in-c)
 4. [Return Reference to a local variable](https://stackoverflow.com/questions/4643713/c-returning-reference-to-local-variable)
+
+### Date
+2022/05/21
