@@ -1,9 +1,10 @@
-# Effective C++ Notes
+# Rules of Three
 ## Motivation
 *Do things right and do the rignt thing.*
 
-There are plenty ways to do one thing. How to do thing right? 
-We should follow the C++ development so that we can utilize more effective tools.
+There are plenty ways to implement things. How to do things right? 
+
+We should follow the new standard C++ so that we can utilize more effective tools.
 
 Here I record all the questions come into my mind while learning C++11. There are several levels for me to record.
 
@@ -32,8 +33,10 @@ Here I record all the questions come into my mind while learning C++11. There ar
 - [[EMC: Item 42] What is the difference between .push_back() and .emplace_back()? [2022/05/18]](EMC_8_Tweaks/Diff_emplace_back_push_back.md)
 - [[others] What is the difference between Malloc & New? (free & delete) [2022/05/18] ](others/Diff_New_Malloc.md)
 - [[others] What is the difference between function argument and parameter? [2022/05/19]](others/Diff_function_argument_parameter.md)
-- [[others] What is the lvalue and rvalue?](others/left_value_right_value.md)
-- [[others] What is the Uniform Initialization?](others/UniformInitialization.md)
+- [[others] What is the lvalue and rvalue? [2022/05/19]](others/left_value_right_value.md)
+- [[others] What is the Uniform Initialization? [2022/05/20]](others/UniformInitialization.md)
+- [[others] What is the Rule of Three in C++? [2022/05/21]](others/RulesOfThree.md)
+- [[others] What is the RAII? [2022/05/21]](others/RAII.md)
 
 ### Middle
 
@@ -43,5 +46,5 @@ Here I record all the questions come into my mind while learning C++11. There ar
 
 ## Reference
 [1] Effective C++: 55 Specific Ways to Improve Your Programs and Designs 3rd Edition, Scott Meyers.
-[2] Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++14 1st Edition, Scott Meyers.
 
+[2] Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++14 1st Edition, Scott Meyers.

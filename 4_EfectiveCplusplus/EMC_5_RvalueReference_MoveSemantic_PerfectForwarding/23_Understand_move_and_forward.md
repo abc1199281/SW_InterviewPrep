@@ -15,6 +15,30 @@ typename remove_reference<T>::type&& move(T&& param)
     return static_cast<ReturnType>(param);
 }
 ~~~
+## Example
+
+~~~c++
+#include <cstdio>
+class Widget{
+    public:
+        Widget(){}
+        Widget(const Widget&){
+            puts("copy ctor");
+        }
+        Widget(Widget&&){
+            puts("move ctor");
+        }
+}
+
+Widget make_W() {
+    Widget w; 
+    return w;
+}
+int main(){
+    Widget w1;
+    Widget w2(make_W);
+}
+~~~
 
 ### Note:
 - All **parameters** are lvalue.
