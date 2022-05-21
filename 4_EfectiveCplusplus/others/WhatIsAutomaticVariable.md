@@ -1,5 +1,5 @@
 # What is automatic variable
-## Simple answer
+## Summary
 - local variable
 - a.k.a, stack variable.
 - When a variable is declared in a function, it becomes an automatic variable.

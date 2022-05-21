@@ -1,7 +1,7 @@
 # What is the implementation of lock_guard?
 
 ### Prerequist
-- [[EC_3_ResourceManage] What is the RAII?](EC_3_ResourceManagement/RAII.md)
+- [What is the RAII?](/4_EfectiveCplusplus/EC_3_ResourceManagement/RAII.md)
 
 
 ## Summary

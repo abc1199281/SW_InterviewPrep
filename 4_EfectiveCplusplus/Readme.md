@@ -35,6 +35,7 @@ Here I record all the questions come into my mind while learning C++11/C. There 
 # Outline
 ### Basic
 - [[EC_3_ResourceManage] What is the RAII? [2022/05/21]](EC_3_ResourceManagement/RAII.md)
+
 - [[EMC_5_MoveSemanticForward] 23: understand std::move & std::forward [2022/05/19]](EMC_5_RvalueReference_MoveSemantic_PerfectForwarding/23_Understand_move_and_forward.md)
 - [[EMC_8_Tweaks] 42. What is the difference between .push_back() and .emplace_back()? [2022/05/18]](EMC_8_Tweaks/Diff_emplace_back_push_back.md)
 - [[others] What is the lvalue and rvalue? [2022/05/19]](others/left_value_right_value.md)
@@ -49,9 +50,11 @@ Here I record all the questions come into my mind while learning C++11/C. There 
 
 ### Middle
 - [[EMC_7_Concurrency] What is the implementation of lock_guard? [2022/05/21]](EMC_7_ConcurrencyAPI/ImplementationOf_lock_gurad.md)
+- [[EC_5_Implementations] What is the stack unwinding? [2022/05/21]](/4_EfectiveCplusplus/EC_5_Implementations/WhatIsStackUnwinding.md)
 - [[others] What is the initial value of int array? [2022/05/21]](others/InitialValueOfArray.md)
 - [[others] What is the Memory layout? [2022/05/21]](others/MemoryLayout.md)
 - [[others] What is the Storage Classes? [2022/05/21]](others/StorageClasses.md)
+
 
 ### Advanced
 - [[others] Why can I return a local declared vector? [2022/05/21]](others/WhyCanIReturnLocalDeclarecVector.md)
