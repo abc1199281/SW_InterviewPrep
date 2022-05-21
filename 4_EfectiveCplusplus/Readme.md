@@ -6,6 +6,7 @@ There are plenty ways to implement things. How to do things right?
 
 We should follow the new standard C++ so that we can utilize more effective tools.
 
+## Category Method
 Here I record all the questions come into my mind while learning C++11. There are several levels for me to record.
 
 - [Basic] :
@@ -16,7 +17,7 @@ Here I record all the questions come into my mind while learning C++11. There ar
 
 - [Middle] :
     - Eaisly confused concepts.
-    - More foundamental C++11.
+    - Foundamental implementation of C++11.
 
 - [Advanced] :
     - Newer than C++11
@@ -29,17 +30,22 @@ Here I record all the questions come into my mind while learning C++11. There ar
 
 # Outline
 ### Basic
-
-- [[EMC: Item 42] What is the difference between .push_back() and .emplace_back()? [2022/05/18]](EMC_8_Tweaks/Diff_emplace_back_push_back.md)
+- [[EC_3_ResourceManage] What is the RAII? [2022/05/21]](EC_3_ResourceManagement/RAII.md)
+- [[EC_5_Implementation] What is the memory layout? [2022/05/21]]()
+- [[EMC_8_Tweaks] 42. What is the difference between .push_back() and .emplace_back()? [2022/05/18]](EMC_8_Tweaks/Diff_emplace_back_push_back.md)
 - [[others] What is the difference between Malloc & New? (free & delete) [2022/05/18] ](others/Diff_New_Malloc.md)
 - [[others] What is the difference between function argument and parameter? [2022/05/19]](others/Diff_function_argument_parameter.md)
 - [[others] What is the lvalue and rvalue? [2022/05/19]](others/left_value_right_value.md)
 - [[others] What is the Uniform Initialization? [2022/05/20]](others/UniformInitialization.md)
-- [[others] What is the Rule of Three in C++? [2022/05/21]](others/RulesOfThree.md)
-- [[others] What is the RAII? [2022/05/21]](others/RAII.md)
+- [[others] What is the Rules of Three (or Rules of Big 5) in C++? [2022/05/21]](others/RulesOfThree.md)
+
 
 ### Middle
-
+- [[EMC_7_Concurrency] What is the implementation of lock_guard? [2022/05/21]](EMC_7_ConcurrencyAPI/ImplementationOf_lock_gurad.md)
+- [[others] Why can I return a local declared vector? [2022/05/21]](others/WhyCanIReturnLocalDeclarecVector.md)
+- [[others] What is the initial value of int array?](others/InitialValueOfArray.md)
+- [[others] What is the Memory layout? [2022/05/21]](others/MemoryLayout.md)
+- [[others] What is the Storage Classes? [2022/05/21]](others/StorageClasses.md)
 
 ### Advanced
 

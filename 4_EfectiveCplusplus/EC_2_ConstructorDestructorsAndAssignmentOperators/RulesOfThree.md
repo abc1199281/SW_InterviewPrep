@@ -2,9 +2,8 @@
 
 ## Simple answer
 0. Motivation:
-    - Resource management (new, memory, OOP).
-    - Avoid memory leakage.
-    - Avoid resource reallocation or twice releasing.
+    - Simple and Effective Rule for Resource (memory) management in OOP).    
+    - Avoid memory reallocation or twice releasing.
 1. Rules of three
     - There are three member functions that go together.
         1. destructor.
@@ -53,7 +52,7 @@ malloc: *** error for object xxx: pointer being freed was not allocated
     - While exist scope, call object destructor for each automatic variable (FILO).
     - behavior:
         1. y.destructor()
-        2. x.destructor() <-- runtime-error.
+        2. x.destructor() <-- **runtime-error.**
             - pointer being freed was not allocated
 
 2. Correct sample
@@ -95,3 +94,6 @@ public:
 [1] [Wiki: Rules of Three](https://en.wikipedia.org/wiki/Rule_of_three_(C%2B%2B_programming))
 
 [2] [The Rule of Three in C++](https://srhuang.github.io/c++/2019/11/11/cplusplus-002.html)
+
+### Date
+2022/05/21
