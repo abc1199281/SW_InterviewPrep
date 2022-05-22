@@ -1,4 +1,4 @@
-# What is the usage of mutable?
+# What is the usage of =default and =delete?
 ## Summary
 - The keyword mutable is mainly used to allow a particular data member of const object to be modified. 
 - This task can be easily performed by using the *mutable* keyword. 
@@ -29,4 +29,4 @@ int main(){
 1. [Storage Classes with examples](https://www.geeksforgeeks.org/storage-classes-in-c-with-examples/)
 
 ### Date
-2022/05/21
+2022/05/22

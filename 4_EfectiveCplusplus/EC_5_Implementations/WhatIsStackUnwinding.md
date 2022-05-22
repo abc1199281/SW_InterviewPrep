@@ -3,7 +3,7 @@
 ### Prerequisite
 - [Memory Layout](/4_EfectiveCplusplus/others/MemoryLayout.md)
 - [Storage Classes](/4_EfectiveCplusplus/others/StorageClasses.md)
-- [RAII](/4_EfectiveCplusplus/EC_3_ResourceManagement/RAII.md)
+- [RAII](/4_EfectiveCplusplus/ATOC_5_EssentialOperstions/RAII.md)
 
 ## Summary
 0. Motivation:

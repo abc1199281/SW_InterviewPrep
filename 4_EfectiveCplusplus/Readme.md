@@ -7,6 +7,14 @@ There are plenty ways to implement things. But, how to do things right?
 1. We should follow the new standard C++ so that we can utilize more effective tools.
 2. We should understand the foundamental of C/C++ scheme (e.g., memory allocation).
 
+So, there are three classic books I read, and I'll catogarize the concepts based on them.
+
+1. (EC) Effective C++: 55 Specific Ways to Improve Your Programs and Designs 3rd Edition, Scott Meyers. 
+2. (EMC) Effective Modern C++: 42 Specific Ways to Improve Your Use of C++11 and C++14 1st Edition, Scott Meyers.
+    - Detailed concept while using C++11
+3. (ATOC2) A Tour of C++ (2e), Bjarne Stroustr
+    - Relative entry lecel description for C++11 / C++
+
 ## Category Method
 Here I record all the questions come into my mind while learning C++11/C. There are several levels for me to record.
 
@@ -34,19 +42,20 @@ Here I record all the questions come into my mind while learning C++11/C. There 
 
 # Outline
 ### Basic
-- [[EC_3_ResourceManage] What is the RAII? [2022/05/21]](EC_3_ResourceManagement/RAII.md)
+- [[ATOC_5_1] What is the Rules of Three (or Rules of Big 5, the rule of zero) in C++? [2022/05/21]](/4_EfectiveCplusplus/ATOC_5_EssentialOperstions/1_RulesOfThree.md)
+- [[ATOC_5_2] What is the =default and =delete specifier? [2022/05/22]](/4_EfectiveCplusplus/ATOC_5_EssentialOperstions/2_DefaultAndDelete.md)
+- [[ATOC_5_3] What is the RAII? [2022/05/21]](/4_EfectiveCplusplus/ATOC_5_EssentialOperstions/RAII.md)
 
 - [[EMC_5_MoveSemanticForward] 23: understand std::move & std::forward [2022/05/19]](EMC_5_RvalueReference_MoveSemantic_PerfectForwarding/23_Understand_move_and_forward.md)
 - [[EMC_8_Tweaks] 42. What is the difference between .push_back() and .emplace_back()? [2022/05/18]](EMC_8_Tweaks/Diff_emplace_back_push_back.md)
 - [[others] What is the lvalue and rvalue? [2022/05/19]](others/left_value_right_value.md)
 - [[others] What is the difference between Malloc & New? (free & delete) [2022/05/18] ](others/Diff_New_Malloc.md)
 - [[others] What is the difference between function argument and parameter? [2022/05/19]](others/Diff_function_argument_parameter.md)
-
 - [[others] What is the Uniform Initialization? [2022/05/20]](others/UniformInitialization.md)
-- [[others] What is the Rules of Three (or Rules of Big 5) in C++? [2022/05/21]](EC_2_ConstructorDestructorsAndAssignmentOperators/RulesOfThree.md)
 
 - [[others] What is the usage of mutable? [2022/05/21]](others/UsageOfMutable.md)
 - [[others] What is the automatic variable? [2022/05/21]](others/WhatIsAutomaticVariable.md)
+
 
 ### Middle
 - [[EMC_7_Concurrency] What is the implementation of lock_guard? [2022/05/21]](EMC_7_ConcurrencyAPI/ImplementationOf_lock_gurad.md)
