@@ -21,8 +21,6 @@ Here I record all the questions come into my mind while learning C++11/C. There 
 - [Basic] :
     - Classic C++/C concepts.
     - Entry level C++11 concept: 
-        - Why this new function?
-        - Difference
 
 - [Middle] :
     - Important concepts.
@@ -33,7 +31,6 @@ Here I record all the questions come into my mind while learning C++11/C. There 
     - Integration with several concepts.
     - Newer than C++11
 
-
 ## Structure of each answer.
 ### Summary
 - just high level / quick answer
@@ -42,7 +39,10 @@ Here I record all the questions come into my mind while learning C++11/C. There 
 
 # Outline
 ### Basic
-- [[ATOC_5_1] What is the Rules of Three (or Rules of Big 5, the rule of zero) in C++? [2022/05/21]](/4_EfectiveCplusplus/ATOC_5_EssentialOperstions/1_RulesOfThree.md)
+- [[ATOC_3_5] What is the Exception in C++?](/4_EfectiveCplusplus/ATOC_3_Modularity/5_1_Exceptions.md)
+- [[ATOC_3_5] What is the Class Invariant in C++?](/4_EfectiveCplusplus/ATOC_3_Modularity/5_2_ClassInvariant.md)
+- [[ATOC_4_2] What is the Uniform Initialization?](/4_EfectiveCplusplus/ATOC_4_Classes/2_3_UniformInitialization.md)
+- [[ATOC_5_1] What is the Rules of Three (or Rules of Big 5, the rule of zero) in C++?](/4_EfectiveCplusplus/ATOC_5_EssentialOperstions/1_RulesOfThree.md)
 - [[ATOC_5_2] What is the =default and =delete specifier?](/4_EfectiveCplusplus/ATOC_5_EssentialOperstions/2_DefaultAndDelete.md)
 - [[ATOC_5_3] What is the RAII?](/4_EfectiveCplusplus/ATOC_5_EssentialOperstions/RAII.md)
 - [[EMC_5_MoveSemanticForward] 23: unde45rrstand std::move & std::forward](EMC_5_RvalueReference_MoveSemantic_PerfectForwarding/23_Understand_move_and_forward.md)
@@ -50,7 +50,7 @@ Here I record all the questions come into my mind while learning C++11/C. There 
 - [[others] What is the lvalue and rvalue?](others/left_value_right_value.md)
 - [[others] What is the difference between Malloc & New? (free & delete)](others/Diff_New_Malloc.md)
 - [[others] What is the difference between function argument and parameter?](others/Diff_function_argument_parameter.md)
-- [[others] What is the Uniform Initialization?](others/UniformInitialization.md)
+
 - [[others] What is the usage of mutable?](others/UsageOfMutable.md)
 - [[others] What is the automatic variable?](others/WhatIsAutomaticVariable.md)
 - [[others] Can I initialize array with variable specified by *const*?](/4_EfectiveCplusplus/others/CanI_InitializeArrayWithVariable.md)
