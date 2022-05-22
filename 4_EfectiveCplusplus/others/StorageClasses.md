@@ -1,6 +1,6 @@
 # What is the Storage Classes in C/C++?
 
-## Quick Answer
+## Summary
 - Why this?
     - The storage class of a C++ variable determines its "lifetime", how long it remains in the computer's memory.
     - Determine [Memory Layout](../others/MemoryLayout.md).
@@ -60,3 +60,6 @@ A name that denotes object, reference, function, type, template, namespace, or v
 ## Ref
 1. [Storage Class](http://faculty.cs.niu.edu/~mcmahon/CS241/Notes/storage_class.html)
 2. [cppreference](https://en.cppreference.com/w/cpp/language/storage_duration)
+
+### Date
+2022/05/21

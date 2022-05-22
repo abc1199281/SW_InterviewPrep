@@ -1,5 +1,5 @@
-# What is the RAII (Resource Acquisition is initialization)?
-
+# 5.3 What is the RAII (Resource Acquisition is initialization)?
+### Reference: 5.3 Resource Management. 
 ## Summary
 - Motivation:
     - Simple and Effective Rule for Resource Management in OOP.  

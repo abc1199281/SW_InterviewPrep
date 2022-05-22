@@ -4,7 +4,7 @@
 1. **std::move**:
     - std::move forcely transfers parameter into rvalue.
 2. **std::forward**    
-    - When argument is rvalue, std::forward transfers argument into rvalue.
+    - When argument is initialized with rvalue, std::forward transfers argument into rvalue.
 3. Both of them don't do anything except tranforming type.
 
 ~~~c++

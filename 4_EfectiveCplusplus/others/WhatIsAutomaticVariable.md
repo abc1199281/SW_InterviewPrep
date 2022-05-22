@@ -1,5 +1,5 @@
 # What is automatic variable
-## Simple answer
+## Summary
 - local variable
 - a.k.a, stack variable.
 - When a variable is declared in a function, it becomes an automatic variable.
@@ -10,3 +10,6 @@
 - See 
     - [Storage Classes](../others/StorageClasses.md)
     - [Memory Layout](../others/MemoryLayout.md)
+
+### Date
+2022/05/21

@@ -1,6 +1,6 @@
 # What is the Uniform Initialization?
 
-## Simple answer
+## Summary
 0. Motivation:
     - Before C++11, initialization methods are different for different types.
     - C++11 tries to unify them.
@@ -31,12 +31,11 @@
         "a","b","c"
     };
 
-
     // std::initializer_list<int> 
     auto ar = {1,2,3};
     ~~~
 
-## Detailed
+## Detailed information
 1. principle:
     - example
     ~~~c++
