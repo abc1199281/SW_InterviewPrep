@@ -57,7 +57,7 @@ Here I record all the questions come into my mind while learning C++11/C. There 
 - [[others] Can I initialize array with variable specified by *const*?](/4_EfectiveCplusplus/others/CanI_InitializeArrayWithVariable.md)
 
 ### Middle
-- [[ATOC_6_4] What is the Variable Template?]()
+- [[ATOC_6_4] What is the Variable Template?](/4_EfectiveCplusplus/ATOC_6_Template/4_TemplateMechanisms/WhatIsVariableTemplate.md)
 - [[ATOC_6_4] What is the Alias Template?](/4_EfectiveCplusplus/ATOC_6_Template/4_TemplateMechanisms/WhatIsAliasTemplate.md)
 
 - [[EMC_7_Concurrency] What is the implementation of lock_guard?](EMC_7_ConcurrencyAPI/ImplementationOf_lock_gurad.md)
