@@ -51,7 +51,7 @@ Cube CreateCube3(){
     return Cube c(10);
 }
 Cube& CreateCube4(){
-    // local variable
+    // Evil, return a vector reference.
     Cube c(20);
     return c;
 }
