@@ -1,5 +1,5 @@
 # What is the Uniform Initialization?
-
+###  Reference: 4.2.3: Initialize container
 ## Summary
 0. Motivation:
     - Before C++11, initialization methods are different for different types.
@@ -58,6 +58,23 @@
         const allocator_type & __a = allocator_type()):_Base(__a){
             _M_range_initialize(__l.begin(), __l.end(), random_access_iterator_tag());
         }
+    ~~~
+    - Simplified version (not template, work around)
+    ~~~c++
+    class Vector{ 
+        // Resource Acquisition Is Initialization, RAII.
+        Vector(int s):elem{new double[s]},sz{s}{/*ctor*/}
+        ~Vector(){delete elem;}//dtor
+        int size() const;
+    private:
+        double * elem;
+        int sz;
+    };
+    Vector::Vector(std::initializer_list<double> lst)
+        :elem{new double[lst.size]}, sz{static_cast<int>(lst.size())}
+    {
+        std::copy(lst.begin(), lst.end(), elem);    
+    }
     ~~~
 2. Initialization without value
 ~~~c++
