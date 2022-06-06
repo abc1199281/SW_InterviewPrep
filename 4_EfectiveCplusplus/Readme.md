@@ -43,6 +43,7 @@ Here I record all the questions come into my mind while learning C++11/C. There 
 - [[ATOC_3_5] What is the Exception?](/4_EfectiveCplusplus/ATOC_3_Modularity/5_1_Exceptions.md)
 - [[ATOC_3_5] What is the Class Invariant?](/4_EfectiveCplusplus/ATOC_3_Modularity/5_2_ClassInvariant.md)
 - [[ATOC_3_5] What is the Static assertions?](/4_EfectiveCplusplus/ATOC_3_Modularity/5_3_StaticAssertions.md)
+- [[ATOC_3_6] What is the Structured bindind?](/4_EfectiveCplusplus/ATOC_3_Modularity/6_3_StructuredBinding.md)
 - [[ATOC_4_2] What is the Uniform Initialization?](/4_EfectiveCplusplus/ATOC_4_Classes/2_3_UniformInitialization.md)
 - [[ATOC_5_1] What is the Rules of Three (or Rules of Big 5, the rule of zero) in C++?](/4_EfectiveCplusplus/ATOC_5_EssentialOperstions/1_RulesOfThree.md)
 - [[ATOC_5_2] What is the =default and =delete specifier?](/4_EfectiveCplusplus/ATOC_5_EssentialOperstions/2_DefaultAndDelete.md)
