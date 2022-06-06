@@ -9,6 +9,7 @@
     check types    
 1. Usage
     ~~~c++
+    #include <type_traits>
     bool b1 = std::is_arithmetic<int>();    // true
     bool b1 = std::is_arithmetic<string>(); // false
 
