@@ -40,8 +40,10 @@ Here I record all the questions come into my mind while learning C++11/C. There 
 # Outline 
 ### Basic
 - [[ATOC_1_6] What is the difference between **const** and **constexpr**?](/4_EfectiveCplusplus/ATOC_1_Basics/6_ConstConstexpr.md)
-- [[ATOC_3_5] What is the Exception in C++?](/4_EfectiveCplusplus/ATOC_3_Modularity/5_1_Exceptions.md)
-- [[ATOC_3_5] What is the Class Invariant in C++?](/4_EfectiveCplusplus/ATOC_3_Modularity/5_2_ClassInvariant.md)
+- [[ATOC_3_5] What is the Exception?](/4_EfectiveCplusplus/ATOC_3_Modularity/5_1_Exceptions.md)
+- [[ATOC_3_5] What is the Class Invariant?](/4_EfectiveCplusplus/ATOC_3_Modularity/5_2_ClassInvariant.md)
+- [[ATOC_3_5] What is the Static assertions?](/4_EfectiveCplusplus/ATOC_3_Modularity/5_3_StaticAssertions.md)
+- [[ATOC_3_6] What is the Structured bindind?](/4_EfectiveCplusplus/ATOC_3_Modularity/6_3_StructuredBinding.md)
 - [[ATOC_4_2] What is the Uniform Initialization?](/4_EfectiveCplusplus/ATOC_4_Classes/2_3_UniformInitialization.md)
 - [[ATOC_5_1] What is the Rules of Three (or Rules of Big 5, the rule of zero) in C++?](/4_EfectiveCplusplus/ATOC_5_EssentialOperstions/1_RulesOfThree.md)
 - [[ATOC_5_2] What is the =default and =delete specifier?](/4_EfectiveCplusplus/ATOC_5_EssentialOperstions/2_DefaultAndDelete.md)
@@ -49,7 +51,7 @@ Here I record all the questions come into my mind while learning C++11/C. There 
 - [[ATOC_6_2] What is the *template*?](/4_EfectiveCplusplus/ATOC_6_Template/2_ParameterizedTypes/WhatIsTemplate.md)
 - [[EMC_5_MoveSemanticForward] 23: understand std::move & std::forward](EMC_5_RvalueReference_MoveSemantic_PerfectForwarding/23_Understand_move_and_forward.md)
 - [[EMC_8_Tweaks] 42. What is the difference between .push_back() and .emplace_back()?](EMC_8_Tweaks/Diff_emplace_back_push_back.md)
-- [[others] What is the Polymorphism?][]()
+- [[others] What is the Polymorphism?](/4_EfectiveCplusplus/others/Polymorphism.md)
 - [[others] What is the lvalue and rvalue?](others/left_value_right_value.md)
 - [[others] What is the difference between Malloc & New? (free & delete)](others/Diff_New_Malloc.md)
 - [[others] What is the difference between function argument and parameter?](others/Diff_function_argument_parameter.md)
