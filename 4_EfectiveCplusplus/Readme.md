@@ -39,6 +39,7 @@ Here I record all the questions come into my mind while learning C++11/C. There 
 
 # Outline
 ### Basic
+- [[ATOC_1_6] What is the difference between **const** and **constexpr**?](/4_EfectiveCplusplus/ATOC_1_Basics/6_ConstConstexpr.md)
 - [[ATOC_3_5] What is the Exception in C++?](/4_EfectiveCplusplus/ATOC_3_Modularity/5_1_Exceptions.md)
 - [[ATOC_3_5] What is the Class Invariant in C++?](/4_EfectiveCplusplus/ATOC_3_Modularity/5_2_ClassInvariant.md)
 - [[ATOC_4_2] What is the Uniform Initialization?](/4_EfectiveCplusplus/ATOC_4_Classes/2_3_UniformInitialization.md)
