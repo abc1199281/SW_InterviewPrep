@@ -49,6 +49,7 @@ Here I record all the questions come into my mind while learning C++11/C. There 
 - [[ATOC_6_2] What is the *template*?](/4_EfectiveCplusplus/ATOC_6_Template/2_ParameterizedTypes/WhatIsTemplate.md)
 - [[EMC_5_MoveSemanticForward] 23: understand std::move & std::forward](EMC_5_RvalueReference_MoveSemantic_PerfectForwarding/23_Understand_move_and_forward.md)
 - [[EMC_8_Tweaks] 42. What is the difference between .push_back() and .emplace_back()?](EMC_8_Tweaks/Diff_emplace_back_push_back.md)
+- [[others] What is the Polymorphism?][]()
 - [[others] What is the lvalue and rvalue?](others/left_value_right_value.md)
 - [[others] What is the difference between Malloc & New? (free & delete)](others/Diff_New_Malloc.md)
 - [[others] What is the difference between function argument and parameter?](others/Diff_function_argument_parameter.md)
