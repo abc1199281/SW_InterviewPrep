@@ -63,7 +63,9 @@ Here I record all the questions come into my mind while learning C++11/C. There 
 ### Middle
 - [[ATOC_4_4] What is the Virtual Table (v-table)](/4_EfectiveCplusplus/ATOC_4_Classes/4_VirtualTable.md)
 - [[ATOC_4_4] What is the difference between non-virtual, virtual, and pure virtual functions](/4_EfectiveCplusplus/ATOC_4_Classes/4_VirtualTable.md)
-- [[ATOC_6_2] What is the Constrained Template arguments?][](/4_EfectiveCplusplus/ATOC_6_Template/2_ParameterizedTypes/1_WhatIsConstrainedTemplate.md)
+- [[ATOC_6_2] What is the Constrained Template arguments?](/4_EfectiveCplusplus/ATOC_6_Template/2_ParameterizedTypes/1_WhatIsConstrainedTemplate.md)
+- [[ATOC_6_2] What is the non-type template arguments / value arguement?](/4_EfectiveCplusplus/ATOC_6_Template/2_ParameterizedTypes/2_WhatIsNonTypeTemplate.md)
+- [[ATOC_6_2] What is the template arguments deduction?](/4_EfectiveCplusplus/ATOC_6_Template/2_ParameterizedTypes/3_WhatIsTemplateArgumentDeduction.md)
 - [[ATOC_6_4] What is the Variable Template?](/4_EfectiveCplusplus/ATOC_6_Template/4_TemplateMechanisms/WhatIsVariableTemplate.md)
 - [[ATOC_6_4] What is the Alias Template?](/4_EfectiveCplusplus/ATOC_6_Template/4_TemplateMechanisms/WhatIsAliasTemplate.md)
 - [[ATOC_6_4] What is the compile-time selection mechanism: if constexpr?](/4_EfectiveCplusplus/ATOC_6_Template/4_TemplateMechanisms/WhatIsCompileTimeSelection.md)

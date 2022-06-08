@@ -36,7 +36,5 @@
     - **Value Template Arguments**
     - Template Argument Deduction
 
-### Ref
-[1] [Jonny's blog: 【C++ 20】Concept](https://jonny.vip/2021/07/11/%e3%80%90cplusplus-20%e3%80%91concept/)
 ### Date
-2022/06/06
+2022/06/07
