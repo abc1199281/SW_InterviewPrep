@@ -4,13 +4,13 @@
 
 ## Summary
 1. Motivation:
-    - Most often, a template will make sense only for template arguments that meet certain criteria. 
-    - E.g., **Vector** require copyable elements.
+    - template with size / address. 
 2. Definition:
     - A template parameter where the type of the parameter is predefined and is substituted for a constexpr value passed in as an argument.
     - Content:
-        - constant expressions, addresses of functions or objects with external linkage
-3. Sample 1:
+        - constant expressions, 
+        - addresses of functions or objects with external linkage
+3. Sample:
     ~~~c++
     //non-type template
     template<typename T, int N> 
@@ -29,7 +29,6 @@
         // N must be a constant expression. 
     }    
     ~~~
-4. 123
 
 ## Detailed Information
 1. One of the parameterized types in template.
