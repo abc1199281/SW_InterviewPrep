@@ -71,6 +71,7 @@ Here I record all the questions come into my mind while learning C++11/C. There 
 - [[ATOC_6_4] What is the compile-time selection mechanism: if constexpr?](/4_EfectiveCplusplus/ATOC_6_Template/4_TemplateMechanisms/WhatIsCompileTimeSelection.md)
 - [[ATOC_7_2] What is the Concept?](/4_EfectiveCplusplus/ATOC_7_ConceptAndGenericProgramming/2_Concepts/1_WhatIsConcept.md)
 - [[ATOC_7_4] What is the Variadic Template?](/4_EfectiveCplusplus/ATOC_7_ConceptAndGenericProgramming/4_WhatIsVariadicTemplate.md)
+- [[ATOC_7_4] What is the Fold Expression?](/4_EfectiveCplusplus/ATOC_7_ConceptAndGenericProgramming/4_1_FoldExpression.md)
 - [[EMC_7_Concurrency] What is the implementation of lock_guard?](EMC_7_ConcurrencyAPI/ImplementationOf_lock_gurad.md)
 - [[EC_5_Implementations] What is the stack unwinding?](/4_EfectiveCplusplus/EC_5_Implementations/WhatIsStackUnwinding.md)
 - [[others] What is the initial value of int array?](others/InitialValueOfArray.md)
