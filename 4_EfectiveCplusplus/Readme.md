@@ -47,7 +47,7 @@ Here I record all the questions come into my mind while learning C++11/C. There 
 - [[ATOC_4_2] What is the Uniform Initialization?](/4_EfectiveCplusplus/ATOC_4_Classes/2_3_UniformInitialization.md)
 - [[ATOC_5_1] What is the Rules of Three (or Rules of Big 5, the rule of zero) in C++?](/4_EfectiveCplusplus/ATOC_5_EssentialOperstions/1_RulesOfThree.md)
 - [[ATOC_5_2] What is the =default and =delete specifier?](/4_EfectiveCplusplus/ATOC_5_EssentialOperstions/2_DefaultAndDelete.md)
-- [[ATOC_5_3] What is the RAII?](/4_EfectiveCplusplus/ATOC_5_EssentialOperstions/RAII.md)
+- [[ATOC_5_3] What is the RAII?](/4_EfectiveCplusplus/ATOC_5_EssentialOperstions/3_RAII.md)
 - [[ATOC_6_2] What is the *template*?](/4_EfectiveCplusplus/ATOC_6_Template/2_ParameterizedTypes/WhatIsTemplate.md)
 - [[EMC_5_MoveSemanticForward] 23: understand std::move & std::forward](EMC_5_RvalueReference_MoveSemantic_PerfectForwarding/23_Understand_move_and_forward.md)
 - [[EMC_8_Tweaks] 42. What is the difference between .push_back() and .emplace_back()?](EMC_8_Tweaks/Diff_emplace_back_push_back.md)
@@ -79,6 +79,7 @@ Here I record all the questions come into my mind while learning C++11/C. There 
 - [[others] What is the initial value of int array?](others/InitialValueOfArray.md)
 - [[others] What is the Memory layout?](others/MemoryLayout.md)
 - [[others] What is the Storage Classes?](others/StorageClasses.md)
+- [[others] [Classic] Motivation for Move semantics and rvalue references in C++11](others/Blog_MoveSemanticsAndRValueReferences.md.md)
 
 ### Advanced
 - [[others] Why can I return a local declared vector?](others/WhyCanIReturnLocalDeclarecVector.md)
