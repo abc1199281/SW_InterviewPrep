@@ -88,8 +88,8 @@ Here I record all the questions come into my mind while learning C++11/C. There 
 - [[ATOC_7_4] Variadic Template?](/4_EfectiveCplusplus/ATOC_7_ConceptAndGenericProgramming/4_WhatIsVariadicTemplate.md)
 - [[ATOC_7_4] Fold Expression (C++17)](/4_EfectiveCplusplus/ATOC_7_ConceptAndGenericProgramming/4_1_FoldExpression.md)
 - [[ATOC_7_4] Forwarding Argument in template?](/4_EfectiveCplusplus/ATOC_7_ConceptAndGenericProgramming/4_2_ForwardingArgument.md)
-- [[EC_7_GenericProgramming] Implicit interfaces and Compile-time Polymorphism.](/4_EfectiveCplusplus/EC_7_TemplatesAndGenericProgramming/Item41_UnderstandImplicitInterfacesAndCompileTimePoly.md)
-- [[EC_7_GenericProgramming] Two meanings of typename.](/4_EfectiveCplusplus/EC_7_TemplatesAndGenericProgramming/TwoMeaningOfTypename.md)
+- [[EC_7_GenericProgramming] 41. Implicit interfaces and Compile-time Polymorphism.](/4_EfectiveCplusplus/EC_7_TemplatesAndGenericProgramming/Item41_UnderstandImplicitInterfacesAndCompileTimePoly.md)
+- [[EC_7_GenericProgramming] 42. Two meanings of typename.](/4_EfectiveCplusplus/EC_7_TemplatesAndGenericProgramming/Item42_TwoMeaningOfTypename.md)
 
 ### Advanced
 - [[others] Why can I return a local declared vector?](others/WhyCanIReturnLocalDeclarecVector.md)
