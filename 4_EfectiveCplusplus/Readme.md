@@ -1,4 +1,4 @@
-# Rules of Three
+# Effective C++
 ## Motivation
 *Do things right and do the rignt thing.*
 
@@ -62,7 +62,7 @@ Here I record all the questions come into my mind while learning C++11/C. There 
 
 ### Middle
 - [[ATOC_4_4] Virtual Table (v-table)](/4_EfectiveCplusplus/ATOC_4_Classes/4_VirtualTable.md)
-- [[ATOC_4_4] What is the difference between non-virtual, virtual, and pure virtual functions](/4_EfectiveCplusplus/ATOC_4_Classes/4_VirtualTable.md)
+- [[ATOC_4_4] What is the difference between non-virtual, virtual, and pure virtual functions](/4_EfectiveCplusplus/ATOC_4_Classes/4_VirtualFunctionsVSPureVirtualFunctions.md)
 - [[ATOC_6_2] Constrained Template arguments](/4_EfectiveCplusplus/ATOC_6_Template/2_ParameterizedTypes/1_WhatIsConstrainedTemplate.md)
 - [[ATOC_6_2] Non-type template arguments / value arguement](/4_EfectiveCplusplus/ATOC_6_Template/2_ParameterizedTypes/2_WhatIsNonTypeTemplate.md)
 - [[ATOC_6_2] Template arguments deduction](/4_EfectiveCplusplus/ATOC_6_Template/2_ParameterizedTypes/3_WhatIsTemplateArgumentDeduction.md)
@@ -76,6 +76,7 @@ Here I record all the questions come into my mind while learning C++11/C. There 
 - [[ATOC_7_4] Forwarding Argument in template?](/4_EfectiveCplusplus/ATOC_7_ConceptAndGenericProgramming/4_2_ForwardingArgument.md)
 - [[EMC_7_Concurrency] Implementation of lock_guard](EMC_7_ConcurrencyAPI/ImplementationOf_lock_gurad.md)
 - [[EC_5_Implementations] What is the stack unwinding?](/4_EfectiveCplusplus/EC_5_Implementations/WhatIsStackUnwinding.md)
+- [[EC_7_GenericProgramming] Two meanings of typename.](/4_EfectiveCplusplus/EC_7_TemplatesAndGenericProgramming/TwoMeaningOfTypename.md)
 - [[others] What is the initial value of int array?](others/InitialValueOfArray.md)
 - [[others] What is the Memory layout?](others/MemoryLayout.md)
 - [[others] What is the Storage Classes?](others/StorageClasses.md)
