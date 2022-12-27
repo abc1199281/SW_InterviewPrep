@@ -6,7 +6,7 @@
 1. left value:
     - after assignment (=), still exist.
     - Requirement: we can obtain the **address**.
-    - all parameters/arguments are **lvalue**. 
+    - all parameters are **lvalue**. 
     - cannot use **move operation**.
     ~~~c++
     class Widget{

@@ -1,4 +1,4 @@
-# Rules of Three
+# Effective C++
 ## Motivation
 *Do things right and do the rignt thing.*
 
@@ -47,9 +47,9 @@ Here I record all the questions come into my mind while learning C++11/C. There 
 - [[ATOC_4_2] What is the Uniform Initialization?](/4_EfectiveCplusplus/ATOC_4_Classes/2_3_UniformInitialization.md)
 - [[ATOC_5_1] What is the Rules of Three (or Rules of Big 5, the rule of zero) in C++?](/4_EfectiveCplusplus/ATOC_5_EssentialOperstions/1_RulesOfThree.md)
 - [[ATOC_5_2] What is the =default and =delete specifier?](/4_EfectiveCplusplus/ATOC_5_EssentialOperstions/2_DefaultAndDelete.md)
-- [[ATOC_5_3] What is the RAII?](/4_EfectiveCplusplus/ATOC_5_EssentialOperstions/RAII.md)
+- [[ATOC_5_3] What is the RAII?](/4_EfectiveCplusplus/ATOC_5_EssentialOperstions/3_RAII.md)
 - [[ATOC_6_2] What is the *template*?](/4_EfectiveCplusplus/ATOC_6_Template/2_ParameterizedTypes/WhatIsTemplate.md)
-- [[EMC_5_MoveSemanticForward] 23: understand std::move & std::forward](EMC_5_RvalueReference_MoveSemantic_PerfectForwarding/23_Understand_move_and_forward.md)
+
 - [[EMC_8_Tweaks] 42. What is the difference between .push_back() and .emplace_back()?](EMC_8_Tweaks/Diff_emplace_back_push_back.md)
 - [[others] What is the Polymorphism?](/4_EfectiveCplusplus/others/Polymorphism.md)
 - [[others] What is the lvalue and rvalue?](others/left_value_right_value.md)
@@ -61,8 +61,22 @@ Here I record all the questions come into my mind while learning C++11/C. There 
 - [[others] Can I initialize array with variable specified by *const*?](/4_EfectiveCplusplus/others/CanI_InitializeArrayWithVariable.md)
 
 ### Middle
+- [[EMC_7_Concurrency] Implementation of lock_guard](EMC_7_ConcurrencyAPI/ImplementationOf_lock_gurad.md)
+- [[EC_5_Implementations] What is the stack unwinding?](/4_EfectiveCplusplus/EC_5_Implementations/WhatIsStackUnwinding.md)
+- [[others] What is the initial value of int array?](others/InitialValueOfArray.md)
+#### - OOP
 - [[ATOC_4_4] Virtual Table (v-table)](/4_EfectiveCplusplus/ATOC_4_Classes/4_VirtualTable.md)
-- [[ATOC_4_4] What is the difference between non-virtual, virtual, and pure virtual functions](/4_EfectiveCplusplus/ATOC_4_Classes/4_VirtualTable.md)
+- [[ATOC_4_4] What is the difference between non-virtual, virtual, and pure virtual functions](/4_EfectiveCplusplus/ATOC_4_Classes/4_VirtualFunctionsVSPureVirtualFunctions.md)
+
+#### - Memory
+- [[others] What is the Memory layout?](others/MemoryLayout.md)
+- [[others] What is the Storage Classes?](others/StorageClasses.md)
+
+#### - Move semantic
+- [[EMC_5_MoveSemanticForward] 23: understand std::move & std::forward](EMC_5_RvalueReference_MoveSemantic_PerfectForwarding/23_Understand_move_and_forward.md)
+- [[others] [Classic] Motivation for Move semantics and rvalue references in C++11](others/Blog_MoveSemanticsAndRValueReferences.md.md)
+
+#### - Templates
 - [[ATOC_6_2] Constrained Template arguments](/4_EfectiveCplusplus/ATOC_6_Template/2_ParameterizedTypes/1_WhatIsConstrainedTemplate.md)
 - [[ATOC_6_2] Non-type template arguments / value arguement](/4_EfectiveCplusplus/ATOC_6_Template/2_ParameterizedTypes/2_WhatIsNonTypeTemplate.md)
 - [[ATOC_6_2] Template arguments deduction](/4_EfectiveCplusplus/ATOC_6_Template/2_ParameterizedTypes/3_WhatIsTemplateArgumentDeduction.md)
@@ -74,11 +88,8 @@ Here I record all the questions come into my mind while learning C++11/C. There 
 - [[ATOC_7_4] Variadic Template?](/4_EfectiveCplusplus/ATOC_7_ConceptAndGenericProgramming/4_WhatIsVariadicTemplate.md)
 - [[ATOC_7_4] Fold Expression (C++17)](/4_EfectiveCplusplus/ATOC_7_ConceptAndGenericProgramming/4_1_FoldExpression.md)
 - [[ATOC_7_4] Forwarding Argument in template?](/4_EfectiveCplusplus/ATOC_7_ConceptAndGenericProgramming/4_2_ForwardingArgument.md)
-- [[EMC_7_Concurrency] Implementation of lock_guard](EMC_7_ConcurrencyAPI/ImplementationOf_lock_gurad.md)
-- [[EC_5_Implementations] What is the stack unwinding?](/4_EfectiveCplusplus/EC_5_Implementations/WhatIsStackUnwinding.md)
-- [[others] What is the initial value of int array?](others/InitialValueOfArray.md)
-- [[others] What is the Memory layout?](others/MemoryLayout.md)
-- [[others] What is the Storage Classes?](others/StorageClasses.md)
+- [[EC_7_GenericProgramming] 41. Implicit interfaces and Compile-time Polymorphism.](/4_EfectiveCplusplus/EC_7_TemplatesAndGenericProgramming/Item41_UnderstandImplicitInterfacesAndCompileTimePoly.md)
+- [[EC_7_GenericProgramming] 42. Two meanings of typename.](/4_EfectiveCplusplus/EC_7_TemplatesAndGenericProgramming/Item42_TwoMeaningOfTypename.md)
 
 ### Advanced
 - [[others] Why can I return a local declared vector?](others/WhyCanIReturnLocalDeclarecVector.md)

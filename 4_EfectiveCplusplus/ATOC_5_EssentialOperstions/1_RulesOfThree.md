@@ -4,7 +4,7 @@
 
 ## Summary
 0. Motivation:
-    - Simple and Effective Rule for Resource (memory) management in OOP).    
+    - Simple and Effective Rule for Resource (memory) management in OOP.    
     - Avoid memory reallocation or twice releasing.
 1. Rules of three
     - There are three member functions that go together.

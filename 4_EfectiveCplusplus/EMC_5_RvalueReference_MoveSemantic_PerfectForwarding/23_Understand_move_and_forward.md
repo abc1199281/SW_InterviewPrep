@@ -21,7 +21,7 @@ typename remove_reference<T>::type&& move(T&& param)
 #include <cstdio>
 class Widget{
     public:
-        Widget(){}
+        Widget(){} 
         Widget(const Widget&){
             puts("copy ctor");
         }

@@ -47,7 +47,7 @@
         iterator    _M_array;
         size_type   _M_len;
 
-        // The compiler can call a private cotr.
+        // The compiler can call a private ctor.
         constexpr initializer_list(const_iterator __a, size_tye __l):_M_array(__a), _M_len(__l){
 
         }

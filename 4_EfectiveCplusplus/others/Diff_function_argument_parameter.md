@@ -17,10 +17,14 @@ someFunc(std::move(wid))
     - **perfect forwarding**.
 - **parameter** is 
     - function's variable (to be initialized.)
-    - lvalue.
+    - Only **lvalue**.
 - **argument** is
-    - the statement that call the function and pass variable.
-    - can be rvalue or lvalue.
+    - the statement that call the function and pass variables.
+    - Tips: 
+        ~~~c++ 
+        int main(int argc, char* argv){return 0;} // argument count, argument vector
+        ~~~
+    - can be rvalue or lvalue, which is important to **perfect forwarding**.
 
 ## Ref:
 [1] Effective Morden C++, p3-p4.
