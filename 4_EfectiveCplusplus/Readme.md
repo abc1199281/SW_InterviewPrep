@@ -91,7 +91,9 @@ Here I record all the questions come into my mind while learning C++11/C. There 
 - [[EC_7_GenericProgramming] 41. Implicit interfaces and Compile-time Polymorphism.](/4_EfectiveCplusplus/EC_7_TemplatesAndGenericProgramming/Item41_UnderstandImplicitInterfacesAndCompileTimePoly.md)
 - [[EC_7_GenericProgramming] 42. Two meanings of typename.](/4_EfectiveCplusplus/EC_7_TemplatesAndGenericProgramming/Item42_TwoMeaningOfTypename.md)
 - [[EC_7_GenericProgramming] 45. Use member functions template to accept all compatible types.](/4_EfectiveCplusplus/EC_7_TemplatesAndGenericProgramming/Item45_MemberFunctionTemplatesToAcceptAllCompatibleTypes.md)
+- [[EC_7_GenericProgramming] 46: Define non-member function inside templates when type conversions are desired](/4_EfectiveCplusplus/EC_7_TemplatesAndGenericProgramming/Item46_DefineNonMemberFunctionsInsideTemplatesWhenTypeConversion.md)
 - [[EC_7_GenericProgramming] 47. Traits for Information about types](/4_EfectiveCplusplus/EC_7_TemplatesAndGenericProgramming/Item47_UseTraitsClassesForInformationAboutTypes.md)
+
 
 ### Advanced
 - [[others] Why can I return a local declared vector?](others/WhyCanIReturnLocalDeclarecVector.md)
