@@ -3,6 +3,7 @@
 ### Reference: Item 47
 
 ## Summary
+- Example: template tool, advance(IterT& iter, DistT d)
 - Traits classes make information about types available during compilation, including pointers.
 - They are implemented using templates and template specializations.
 - In conjunction with overloading, traits classes make it possible to perform compile-time if...else tests on types.
