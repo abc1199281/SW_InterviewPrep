@@ -67,6 +67,7 @@ Here I record all the questions come into my mind while learning C++11/C. There 
 #### - OOP
 - [[ATOC_4_4] Virtual Table (v-table)](/4_EfectiveCplusplus/ATOC_4_Classes/4_VirtualTable.md)
 - [[ATOC_4_4] What is the difference between non-virtual, virtual, and pure virtual functions](/4_EfectiveCplusplus/ATOC_4_Classes/4_VirtualFunctionsVSPureVirtualFunctions.md)
+- [[EC_6_Inheritance] 32, public inheritance follows models "is-as," i.e., Liskov Substitution Principle.](/4_EfectiveCplusplus/EC_6_InheritanceAndObjectOrientedDesign/Item32_MakeSurePublicInheritanceModelsIsAs.md)
 
 #### - Memory
 - [[others] What is the Memory layout?](others/MemoryLayout.md)
