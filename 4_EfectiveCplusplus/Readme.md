@@ -70,6 +70,8 @@ Here I record all the questions come into my mind while learning C++11/C. There 
 - [[EC_6_Inheritance] 34, Differentiate between Inheritance of interface and inheritance of implementation](/4_EfectiveCplusplus/EC_6_InheritanceAndObjectOrientedDesign/Item34_DiffBetweenInheritanceOfInterfaceAndImplementation.md)
 
 - [[EC_6_Inheritance] 35, Consider alternatives to virtual functions, std::bind()](/4_EfectiveCplusplus/EC_6_InheritanceAndObjectOrientedDesign/Item35_ConsiderAlternativesToVirtualFunctions.md)
+- [[EC_6_Inheritance] 36, Never redefine an inherited non-virtual function](/4_EfectiveCplusplus/EC_6_InheritanceAndObjectOrientedDesign/Item36_NeverRedefineAnInheritedNonVirtualFunct.md)
+- [[EC_6_Inheritance] 37, Never redefine a function's inherited default parameter value.](/4_EfectiveCplusplus/EC_6_InheritanceAndObjectOrientedDesign/Item37_NeverRedefineAFunctInheritedDefaultParamValue.md)
 
 #### - Memory
 - [[others] What is the Memory layout?](others/MemoryLayout.md) 
