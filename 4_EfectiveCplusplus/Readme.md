@@ -68,10 +68,11 @@ Here I record all the questions come into my mind while learning C++11/C. There 
 - [[EC_6_Inheritance] 32, public inheritance follows models "is-as," i.e., Liskov Substitution Principle.](/4_EfectiveCplusplus/EC_6_InheritanceAndObjectOrientedDesign/Item32_MakeSurePublicInheritanceModelsIsAs.md)
 - [[EC_6_Inheritance] 33, Avoid hiding inherited names](/4_EfectiveCplusplus/EC_6_InheritanceAndObjectOrientedDesign/Item33_AvoidHidingInheritedNames.md)
 - [[EC_6_Inheritance] 34, Differentiate between Inheritance of interface and inheritance of implementation](/4_EfectiveCplusplus/EC_6_InheritanceAndObjectOrientedDesign/Item34_DiffBetweenInheritanceOfInterfaceAndImplementation.md)
-
 - [[EC_6_Inheritance] 35, Consider alternatives to virtual functions, std::bind()](/4_EfectiveCplusplus/EC_6_InheritanceAndObjectOrientedDesign/Item35_ConsiderAlternativesToVirtualFunctions.md)
 - [[EC_6_Inheritance] 36, Never redefine an inherited non-virtual function](/4_EfectiveCplusplus/EC_6_InheritanceAndObjectOrientedDesign/Item36_NeverRedefineAnInheritedNonVirtualFunct.md)
 - [[EC_6_Inheritance] 37, Never redefine a function's inherited default parameter value.](/4_EfectiveCplusplus/EC_6_InheritanceAndObjectOrientedDesign/Item37_NeverRedefineAFunctInheritedDefaultParamValue.md)
+- [[EC_6_Inheritance] 38, Model "has-a" or "is-implemented-in-terms-of" through Composition](/4_EfectiveCplusplus/EC_6_InheritanceAndObjectOrientedDesign/Item38_CompositionModelHasAsOrImplInTermsOf.md)
+
 
 #### - Memory
 - [[others] What is the Memory layout?](others/MemoryLayout.md) 
