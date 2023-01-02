@@ -72,6 +72,7 @@ Here I record all the questions come into my mind while learning C++11/C. There 
 - [[EC_6_Inheritance] 36, Never redefine an inherited non-virtual function](/4_EfectiveCplusplus/EC_6_InheritanceAndObjectOrientedDesign/Item36_NeverRedefineAnInheritedNonVirtualFunct.md)
 - [[EC_6_Inheritance] 37, Never redefine a function's inherited default parameter value.](/4_EfectiveCplusplus/EC_6_InheritanceAndObjectOrientedDesign/Item37_NeverRedefineAFunctInheritedDefaultParamValue.md)
 - [[EC_6_Inheritance] 38, Model "has-a" or "is-implemented-in-terms-of" through Composition](/4_EfectiveCplusplus/EC_6_InheritanceAndObjectOrientedDesign/Item38_CompositionModelHasAsOrImplInTermsOf.md)
+- [[EC_6_Inheritance] 39, Use private inheritance judiciously](/4_EfectiveCplusplus/EC_6_InheritanceAndObjectOrientedDesign/Item39_UsePrivateInheritanceJudiciously.md)
 
 
 #### - Memory
