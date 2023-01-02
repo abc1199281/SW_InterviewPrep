@@ -1,99 +1,129 @@
-# Item 38: Model "has-a" or "is-implemented-in-terms-of" through composition
+# Item 40: Use multiple inheritance judiciously
 
-### Reference: Item 38
+### Reference: Item 40
 
 ## Summary
-1. **Composition** has meanings completely different from that of public inheritance.
-2. In the **application domain**, composition means **has-a**. 
-3. In the **implementation domain**, it means **is-implemented-in-terms-of**
+1. Multiple inheritance is more complex than single inheritance. 
+    - It can lead to new ambiguity issues and to the need for virtual inheritance.
+2. Virtual inheritance imposes costs in size, speed, and complexity of initialization and assignment. 
+    - It is most practical when virtual base classes have no data.
+3. Multiple inheritance does have legitimate uses.
+    - One scenario in-volves combining public inheritance from an Interface class with private inheritance from a class that helps with implementation.
 
-- 2 Domains:
-    - **Application domain**:
-        - Objects correspond to things in the world you are modeling
-        - E.g., people, vehicles, video, etc.
-        - Composition = **has-a**
-    - **Implementation domain**:
-        - Objects are purely implementation artifacts.
-        - e.g., buffers, mutexes, search trees, etc.
-        - Composition = **is-implemented-in-terms-of**
 
 ## Detailed Information
-- Composition
-    - The relationship between types that arises when objects of one type **contain** objects of another type.
-    - Synonyms:
-        - *layering, containment, aggregation, embedding*
+- Drawback: Enhanced Ambiguity:
+    - Although you can still: *mp.BorrowableItem::checkOut();*, not a good design.
     ~~~c++
-    class Address{/*...*/};
-    class PhoneNumber{/*...*/};
-    class Person{
+    class BorrowableItem{
     public:
-        /*...*/
-    private:
-        std::string name;           // Composed object.
-        Address address;            // ditto
-        PhoneNumber voiceNumber;    // ditto
-        PhoneNumber faxNumber;      // ditto
+        void checkOut();
     };
+    class ElectronicGadget{
+    private:
+        bool checkOut() const;
+    };
+    class MP3Player:
+        public BorrowableItem,
+        public ElectronGadget
+        {/*...*/};
+    MP3Player mp;
+    mp.checkOut(); // Which one?
     ~~~
-- 2 Domains:
-    - **Application domain**:
-        - Objects correspond to things in the world you are modeling
-        - E.g., people, vehicles, video, etc.
-        - Composition = **has-a**
-    - **Implementation domain**:
-        - Objects are purely implementation artifacts.
-        - e.g., buffers, mutexes, search trees, etc.
-        - Composition = **is-implemented-in-terms-of**
-- Example of Implementation domain
-    - Target: **Set** with optimal space complexity
-        - **std::set** require
-            - Space: Three pointers for balanced search trees.
-            - Time: O(logn)
-        - Alternative: implementated in terms of a **std::list**.
-    - Error:
-        - Set is *not* a list, so public inheritance doesn't work.
+- **Deadly MI dimond**:
+    - Structure:
+        - Base class: File
+        - Middle classes (Derived of File): InputFile, OutputFile
+        - Bottom class (MI of I/OFile): IOFile
+    - Dillema: How many member variable *fileName* should IOFile has?
+        1. From code logic, there should be a copy in each path.
+        2. From basic logic, each file should only has one name.
+    - C++: support both
+        1. (Default) copy both.
+        2. virtual base class.
         ~~~c++
-        template<typename T>
-        class Set: public std::list<T>{/*...*/};
+        class File{};
+        class InputFile: virtual public File{/*...*/}
+        class OutputFile: virtual public File{/*...*/}
+        class IOFile: public InputFile,
+                      public OutputFile
+        {/*...*/};
         ~~~
-    - Good:
-        - Set is implemented in terms of list
+    - Real example in C++ STL
+        - basic_ios
+        - basic_istream, basic_ostream
+        - basic_iostream
+- Cost of virtual base:
+    - Complicated design for compilers.
+    - Size of virtual inheritance is larger that of non-virtual.
+- Suggestion:
+    - Do not use virtual base unless necessary.
+    - If necessary, you can avoid putting data in them.
+- Another MI case: Person
+    - Situation formulation
+        - Interface = IPerson
+        - Implemented in terms of: PersonInfo
+    - Given code:
+        - Factory functions
         ~~~c++
-        template<class T>
-        class Set{
+        class IPerson{
         public:
-            bool member(const T& item) const;
-            void insert(const T& item);
-            void remove(const T& item);
-            std::size_t size() const;
+            virtual ~IPerson();
+            virtual std::string name() const = 0;
+            virtual std::string birthDate() const = 0;
+        };
+
+        // factory function
+        std::shared_ptr<IPerson> makePerson(DatabaseID personIdentifier);
+
+        // function declaration
+        DatabaseID askUserForDatabaseID();
+
+        DatabaseID id(askUserForDatabaseID());
+        std::shared_ptr<IPerson> pp(makePerson(id));
+        ~~~
+        - Existing code
+        ~~~c++        
+        class PersonInfor{
+        public:
+            explicit PersonInfo(DatabaseID pid);
+            virtual ~PersonInfo();
+            virtual const char* theName() const;
+            virtual const char* theBiethDate() const;
         private:
-            std::list<T> rep; // Is implemented in terms of list
+            virtual const char* valueDelimOpen() const;
+            virtual const char* valueDelimClose() const;
+        };
+
+        const char* PersonInfo::valueDelimOpen() const{
+            return "[";
+        }
+        const char* PersonInfo::valueDelimClose() const{
+            return "]";
+        }
+        const char* PersonInfo::theName() const{
+            static char value[Max_Formatted_Field_Value_Length];
+            std::strcpy(value, valueDelimOpen());
+            std::strcat(value, valueDelimClose());
+            return value;
+        }
+        ~~~
+        - Solution:
+        ~~~c++
+        class CPerson: public IPerson, private PersonInfo{
+        public:
+            explicit CPerson(DatabaseID pid):PersonInfo(pid){}
+            virtual std::string name() const
+            { return PersonInfo::theName();}
+
+            virtual std::string birthDate() const
+            { return PersonInfo::theBirthDate(); }
+
+        private: // redefine the inherited delimiter functions
+            const char* valueDelimOpen() const { return ""; }
+            const char* valueDelimClose() const {return ""; }
         };
         ~~~
-### Set implementation
-~~~c++
-template<typename T>
-bool Set<T>::member(const T&item) const{
-    return std::find(rep.begin(), rep.end(), item) != rep.end();
-}
-
-template<typename T>
-void Set<T>::insert(const T& item){
-    if(!member(item)) rep.push_back(item);
-}
-
-template<typename T>
-void Set<T>::remove(const T&item){
-    typename std::list<T>::iterator it = 
-        std::find(rep.begin(), rep.end(), item);
-    if(it!= rep.end()) rep.erase(it);
-}
-
-template<typename T>
-std::size_t Set<T>::size() const{
-    return rep.size();
-}
-~~~   
 
 ### Date
-2023/01/01
+2023/01/02

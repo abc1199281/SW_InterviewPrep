@@ -73,7 +73,7 @@ Here I record all the questions come into my mind while learning C++11/C. There 
 - [[EC_6_Inheritance] 37, Never redefine a function's inherited default parameter value.](/4_EfectiveCplusplus/EC_6_InheritanceAndObjectOrientedDesign/Item37_NeverRedefineAFunctInheritedDefaultParamValue.md)
 - [[EC_6_Inheritance] 38, Model "has-a" or "is-implemented-in-terms-of" through Composition](/4_EfectiveCplusplus/EC_6_InheritanceAndObjectOrientedDesign/Item38_CompositionModelHasAsOrImplInTermsOf.md)
 - [[EC_6_Inheritance] 39, Use private inheritance judiciously](/4_EfectiveCplusplus/EC_6_InheritanceAndObjectOrientedDesign/Item39_UsePrivateInheritanceJudiciously.md)
-
+- [[EC_6_Inheritance] 40, Use multiple inheritance judiciously](/4_EfectiveCplusplus/EC_6_InheritanceAndObjectOrientedDesign/Item40_UseMultipleInheritanceJudiciously.md)
 
 #### - Memory
 - [[others] What is the Memory layout?](others/MemoryLayout.md) 
