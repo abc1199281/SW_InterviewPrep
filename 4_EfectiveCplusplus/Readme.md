@@ -61,15 +61,23 @@ Here I record all the questions come into my mind while learning C++11/C. There 
 - [[others] Can I initialize array with variable specified by *const*?](/4_EfectiveCplusplus/others/CanI_InitializeArrayWithVariable.md)
 
 ### Middle
-- [[EMC_7_Concurrency] Implementation of lock_guard](EMC_7_ConcurrencyAPI/ImplementationOf_lock_gurad.md)
-- [[EC_5_Implementations] What is the stack unwinding?](/4_EfectiveCplusplus/EC_5_Implementations/WhatIsStackUnwinding.md)
-- [[others] What is the initial value of int array?](others/InitialValueOfArray.md)
+
 #### - OOP
 - [[ATOC_4_4] Virtual Table (v-table)](/4_EfectiveCplusplus/ATOC_4_Classes/4_VirtualTable.md)
 - [[ATOC_4_4] What is the difference between non-virtual, virtual, and pure virtual functions](/4_EfectiveCplusplus/ATOC_4_Classes/4_VirtualFunctionsVSPureVirtualFunctions.md)
+- [[EC_4_Design] 18, Make interfaces easy to use correctly and hard to use incorrectly.](/4_EfectiveCplusplus/EC_4_DesignsAndDeclarations/Item18_DesignsAndDeclarations.md)
+- [[EC_6_Inheritance] 32, public inheritance follows models "is-as," i.e., Liskov Substitution Principle.](/4_EfectiveCplusplus/EC_6_InheritanceAndObjectOrientedDesign/Item32_MakeSurePublicInheritanceModelsIsAs.md)
+- [[EC_6_Inheritance] 33, Avoid hiding inherited names](/4_EfectiveCplusplus/EC_6_InheritanceAndObjectOrientedDesign/Item33_AvoidHidingInheritedNames.md)
+- [[EC_6_Inheritance] 34, Differentiate between Inheritance of interface and inheritance of implementation](/4_EfectiveCplusplus/EC_6_InheritanceAndObjectOrientedDesign/Item34_DiffBetweenInheritanceOfInterfaceAndImplementation.md)
+- [[EC_6_Inheritance] 35, Consider alternatives to virtual functions, std::bind()](/4_EfectiveCplusplus/EC_6_InheritanceAndObjectOrientedDesign/Item35_ConsiderAlternativesToVirtualFunctions.md)
+- [[EC_6_Inheritance] 36, Never redefine an inherited non-virtual function](/4_EfectiveCplusplus/EC_6_InheritanceAndObjectOrientedDesign/Item36_NeverRedefineAnInheritedNonVirtualFunct.md)
+- [[EC_6_Inheritance] 37, Never redefine a function's inherited default parameter value.](/4_EfectiveCplusplus/EC_6_InheritanceAndObjectOrientedDesign/Item37_NeverRedefineAFunctInheritedDefaultParamValue.md)
+- [[EC_6_Inheritance] 38, Model "has-a" or "is-implemented-in-terms-of" through Composition](/4_EfectiveCplusplus/EC_6_InheritanceAndObjectOrientedDesign/Item38_CompositionModelHasAsOrImplInTermsOf.md)
+- [[EC_6_Inheritance] 39, Use private inheritance judiciously](/4_EfectiveCplusplus/EC_6_InheritanceAndObjectOrientedDesign/Item39_UsePrivateInheritanceJudiciously.md)
+- [[EC_6_Inheritance] 40, Use multiple inheritance judiciously](/4_EfectiveCplusplus/EC_6_InheritanceAndObjectOrientedDesign/Item40_UseMultipleInheritanceJudiciously.md)
 
 #### - Memory
-- [[others] What is the Memory layout?](others/MemoryLayout.md)
+- [[others] What is the Memory layout?](others/MemoryLayout.md) 
 - [[others] What is the Storage Classes?](others/StorageClasses.md)
 
 #### - Move semantic
@@ -94,6 +102,10 @@ Here I record all the questions come into my mind while learning C++11/C. There 
 - [[EC_7_GenericProgramming] 46: Define non-member function inside templates when type conversions are desired](/4_EfectiveCplusplus/EC_7_TemplatesAndGenericProgramming/Item46_DefineNonMemberFunctionsInsideTemplatesWhenTypeConversion.md)
 - [[EC_7_GenericProgramming] 47. Traits for Information about types](/4_EfectiveCplusplus/EC_7_TemplatesAndGenericProgramming/Item47_UseTraitsClassesForInformationAboutTypes.md)
 
+#### - Others
+- [[EMC_7_Concurrency] Implementation of lock_guard](EMC_7_ConcurrencyAPI/ImplementationOf_lock_gurad.md)
+- [[EC_5_Implementations] What is the stack unwinding?](/4_EfectiveCplusplus/EC_5_Implementations/WhatIsStackUnwinding.md)
+- [[others] What is the initial value of int array?](others/InitialValueOfArray.md)
 
 ### Advanced
 - [[others] Why can I return a local declared vector?](others/WhyCanIReturnLocalDeclarecVector.md)
